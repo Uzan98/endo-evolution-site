@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Endo Evolution — Mentoria online em Endodontia | Prof. Dr. Christian Castilho</title>
+<meta name="description" content="Mentoria 100% online em endodontia com o Prof. Dr. Christian Castilho: conteúdo teórico, demonstrações práticas e planejamento dos seus casos clínicos, sem viajar e sem parar sua agenda.">
+<meta name="theme-color" content="#0B161E">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/icone.png">
+<!-- Prévia do link (WhatsApp, Instagram, Facebook). Depois de publicar, troque SEU-DOMINIO pelo endereço do site. -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Endo Evolution — Mentoria online em Endodontia">
+<meta property="og:description" content="Teoria, prática e o planejamento dos seus casos, com acompanhamento de perto do Prof. Dr. Christian Castilho. 100% online.">
+<meta property="og:image" content="https://SEU-DOMINIO/assets/compartilhar.jpg">
+<meta property="og:url" content="https://SEU-DOMINIO/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+<style>
+body{margin:0;background:#0B161E}
+a{color:#4FE0BE}a:hover{color:#7FEBD0}
+html{scroll-behavior:smooth}
+.ee-btn{transition:transform .2s ease, background-color .2s ease, border-color .2s ease}
+.ee-btn:hover{transform:translateY(-2px)}
+.ee-card{transition:border-color .3s ease, background-color .3s ease}
+.ee-card:hover{border-color:rgba(63,217,181,.45);background-color:#142631}
+details summary{list-style:none;cursor:pointer}
+details summary::-webkit-details-marker{display:none}
+details[open] .ee-plus{transform:rotate(45deg)}
+.ee-plus{transition:transform .25s ease}
+@keyframes ee-pulse{0%,100%{opacity:.35}50%{opacity:1}}
+.ee-dot{animation:ee-pulse 2.4s ease-in-out infinite}
+.ee-js .ee-r{opacity:0;transform:translateY(36px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1),border-color .3s ease,background-color .3s ease}
+.ee-js .ee-r-left{transform:translateX(-48px)}
+.ee-js .ee-r-right{transform:translateX(48px)}
+.ee-js .ee-r-scale{transform:scale(.94)}
+.ee-js .ee-r.ee-in{opacity:1;transform:none}
+.ee-js .ee-d1{transition-delay:.1s}
+.ee-js .ee-d2{transition-delay:.2s}
+.ee-js .ee-d3{transition-delay:.3s}
+.ee-js .ee-d4{transition-delay:.4s}
+.ee-js .ee-d5{transition-delay:.55s}
+.ee-js .ee-stagger > .ee-r:nth-child(2){transition-delay:.1s}
+.ee-js .ee-stagger > .ee-r:nth-child(3){transition-delay:.2s}
+.ee-js .ee-stagger > .ee-r:nth-child(4){transition-delay:.3s}
+.ee-js .ee-stagger > .ee-r:nth-child(5){transition-delay:.4s}
+.ee-js .ee-stagger > .ee-r:nth-child(6){transition-delay:.5s}
+.ee-js .ee-zoom img{transform:scale(1.14);transition:transform 2s cubic-bezier(.2,.7,.2,1)}
+.ee-js .ee-in .ee-zoom img{transform:scale(1)}
+.ee-grain{position:relative}
+.ee-grain::after{content:"";position:absolute;inset:0;background-image:url(assets/grain.png);background-size:220px 220px;opacity:.05;mix-blend-mode:overlay;pointer-events:none;z-index:50}
+@keyframes ee-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ee-marquee{animation:ee-marquee 38s linear infinite}
+.ee-outline{color:transparent;-webkit-text-stroke:1px rgba(111,216,196,.75)}
+.ee-js .ee-draw{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2.6s cubic-bezier(.55,.1,.2,1)}
+.ee-js .ee-in .ee-draw{stroke-dashoffset:0}
+.ee-js .ee-dl1{transition-delay:.9s}
+.ee-js .ee-dl2{transition-delay:1.4s}
+.ee-js .ee-dl3{transition-delay:3.2s}
+.ee-js .ee-pop{opacity:0;transform:scale(0);transform-box:fill-box;transform-origin:center;transition:opacity .5s ease 3.6s,transform .6s cubic-bezier(.3,1.6,.5,1) 3.6s}
+.ee-js .ee-in .ee-pop{opacity:1;transform:scale(1)}
+.ee-js .ee-tag{opacity:0;transform:translateY(10px);transition:opacity .7s ease 3.9s,transform .7s ease 3.9s}
+.ee-js .ee-in .ee-tag{opacity:1;transform:none}
+.ee-glow-canal{filter:drop-shadow(0 0 6px rgba(63,217,181,.55))}
+.ee-snap{scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#2A3D48 transparent}
+.ee-snap > *{scroll-snap-align:start}
+.ee-range{-webkit-appearance:none;appearance:none;background:transparent;width:100%;height:44px;cursor:ew-resize;margin:0}
+.ee-range::-webkit-slider-runnable-track{height:2px;background:rgba(255,255,255,.18)}
+.ee-range::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:#4FE0BE;margin-top:-10px;border:4px solid #0B161E;box-shadow:0 0 0 1px #4FE0BE}
+.ee-range::-moz-range-track{height:2px;background:rgba(255,255,255,.18)}
+.ee-range::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:#4FE0BE;border:4px solid #0B161E}
+.ee-range:focus-visible{outline:2px solid #4FE0BE;outline-offset:4px}
+.ee-float{transition:transform .25s ease, background-color .25s ease}
+.ee-float:hover{transform:scale(1.06);background-color:#1c1b19}
+.ee-mbar{display:none}
+@media (max-width: 760px){.ee-mentor{left:12px!important;bottom:20px!important}.ee-screen{aspect-ratio:4 / 3!important}.ee-float{display:none!important}.ee-mbar{display:flex!important}.ee-hide-sm{display:none!important}.ee-pad-sm{padding-bottom:88px}}
+@media (prefers-reduced-motion: reduce){.ee-marquee{animation:none}.ee-js .ee-draw{stroke-dashoffset:0;transition:none}.ee-js .ee-pop,.ee-js .ee-tag{opacity:1;transform:none;transition:none}}
+@media (prefers-reduced-motion: reduce){.ee-js .ee-r{opacity:1;transform:none;transition:none}.ee-js .ee-zoom img{transform:none}}
+</style>
+</head>
+<body>
+
+<div id="ee-root" class="ee-grain ee-pad-sm" style="background: #0B161E; color: #F2EEE6; font-family: 'Sora', system-ui, sans-serif; font-weight: 300; line-height: 1.6; overflow-x: clip">
+
+<!-- NAV -->
+<header style="position: sticky; top: 0; z-index: 10; background: rgba(11,22,30,0.86); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,0.07)">
+<nav style="max-width: 1240px; margin: 0 auto; padding: 14px clamp(20px, 4vw, 32px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#topo" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #F2EEE6">
+<img src="assets/logo.png" alt="Endo Evolution" style="height: 42px; width: auto; display: block">
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-size: 14px">
+<a href="#mentoria" class="ee-hide-sm" style="color: #C5CED4; text-decoration: none">A mentoria</a>
+<a href="#como-funciona" class="ee-hide-sm" style="color: #C5CED4; text-decoration: none">Como funciona</a>
+<a href="#professor" class="ee-hide-sm" style="color: #C5CED4; text-decoration: none">O professor</a>
+<a href="#depoimentos" class="ee-hide-sm" style="color: #C5CED4; text-decoration: none">Depoimentos</a>
+<a href="#duvidas" class="ee-hide-sm" style="color: #C5CED4; text-decoration: none">Dúvidas</a>
+<a class="ee-btn ee-hide-sm" href="#inscricao" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border: 1px solid #4FE0BE; border-radius: 999px; color: #4FE0BE; text-decoration: none; font-weight: 500">Quero minha vaga</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="topo" style="position: relative; max-width: 1240px; margin: 0 auto; padding: clamp(40px, 6vw, 72px) clamp(20px, 4vw, 32px) clamp(64px, 8vw, 96px); display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
+<div class="ee-r" style="display: flex; align-items: center; gap: 12px; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">
+<span class="ee-dot" style="width: 7px; height: 7px; border-radius: 50%; background: #6FD8C4"></span>
+MENTORIA ONLINE EM ENDODONTIA
+</div>
+<h1 class="ee-r ee-d1" style="margin: 0; font-size: clamp(40px, 5.4vw, 74px); line-height: 1.04; font-weight: 600; letter-spacing: -0.03em">A endodontia que você quer dominar, <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE; letter-spacing: -0.01em">sem sair do seu consultório.</span></h1>
+<p class="ee-r ee-d2" style="margin: 0; font-size: 19px; color: #B4C0C8; max-width: 560px">Conteúdo teórico, demonstrações práticas e o planejamento dos seus próprios casos clínicos, com acompanhamento de perto do Prof. Dr. Christian Castilho. Tudo online, no seu ritmo.</p>
+<div class="ee-r ee-d3" style="display: flex; flex-wrap: wrap; gap: 14px; padding-top: 6px">
+<a class="ee-btn" href="#inscricao" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 32px; border-radius: 999px; background: #3FD9B5; color: #062A26; text-decoration: none; font-weight: 600; font-size: 16px">Quero minha vaga
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+<a class="ee-btn" href="#como-funciona" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 30px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); color: #F2EEE6; text-decoration: none; font-weight: 500; font-size: 16px">Ver como funciona</a>
+</div>
+<div class="ee-r ee-d4" style="display: flex; flex-wrap: wrap; gap: 22px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 14px; color: #C5CED4">
+<span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>Sem passagens</span>
+<span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>Sem hotel</span>
+<span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>Sem parar sua agenda</span>
+</div>
+</div>
+
+<div class="ee-r ee-r-scale ee-d2" style="flex: 1 1 380px; min-width: 0; max-width: 500px; margin: 0 auto; position: relative">
+<div style="position: absolute; top: -18px; right: -18px; bottom: 18px; left: 18px; border: 1px solid rgba(63,217,181,0.4); border-radius: 28px"></div>
+<div class="ee-zoom" style="position: relative; border-radius: 28px; overflow: hidden; aspect-ratio: 4 / 5; background: #12222C">
+<img src="assets/christian.jpg" alt="Prof. Dr. Christian Castilho sorrindo em seu escritório" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; display: block">
+</div>
+<div class="ee-r ee-r-left ee-d5 ee-mentor" style="position: absolute; left: -24px; bottom: 36px; background: rgba(20,20,22,0.92); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 18px; padding: 16px 22px; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 11px; letter-spacing: 0.24em; color: #6FD8C4; font-weight: 500">SEU MENTOR</span>
+<span style="font-size: 17px; font-weight: 600">Prof. Dr. Christian Castilho</span>
+<span style="font-size: 13px; color: #9AA8B2">Endodontia</span>
+</div>
+</div>
+</section>
+
+<!-- COUNTER -->
+<section id="contador" data-counter="1" style="position: relative; overflow: hidden; border-top: 1px solid rgba(255,255,255,0.07); border-bottom: 1px solid rgba(255,255,255,0.07); background: #0F1E28">
+<div aria-hidden="true" style="position: absolute; left: 4%; top: 50%; width: 760px; height: 420px; transform: translateY(-50%); background: radial-gradient(closest-side, rgba(63,217,181,0.16), rgba(63,217,181,0) 100%); pointer-events: none"></div>
+<div style="position: relative; max-width: 1240px; margin: 0 auto; padding: clamp(64px, 8vw, 96px) clamp(20px, 4vw, 32px); display: flex; flex-wrap: wrap; align-items: center; gap: 48px 72px">
+<div class="ee-r ee-r-scale" style="flex: 1 1 520px; min-width: 0">
+<div style="display: flex; align-items: flex-start; font-weight: 700; letter-spacing: -0.05em; line-height: 0.9">
+<span style="font-size: clamp(44px, 6.5vw, 92px); color: #4FE0BE; font-weight: 300; padding-right: 6px">+</span>
+<span style="font-size: clamp(84px, 12.5vw, 184px); font-variant-numeric: tabular-nums; color: #F2EEE6" id="ee-count">0</span>
+</div>
+<div style="margin-top: 28px; height: 1px; background: rgba(255,255,255,0.1); max-width: 620px">
+<div id="ee-bar" style="height: 1px; width: 0%; background: #4FE0BE"></div>
+</div>
+</div>
+<div class="ee-r ee-r-right ee-d2" style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">ALUNOS FORMADOS</p>
+<h2 style="margin: 0; font-size: clamp(28px, 3vw, 38px); line-height: 1.15; font-weight: 600; letter-spacing: -0.02em">dentistas já passaram pelas mãos do Prof. Dr. Christian Castilho.</h2>
+<p style="margin: 0; font-size: 17px; color: #B4C0C8">Uma trajetória construída caso a caso, aluno a aluno. Agora, esse mesmo acompanhamento cabe na sua rotina.</p>
+</div>
+</div>
+</section>
+
+<!-- MARQUEE -->
+<div aria-hidden="true" style="overflow: hidden; border-bottom: 1px solid rgba(255,255,255,0.07); padding: 26px 0">
+<div class="ee-marquee" style="display: flex; width: max-content; gap: 48px; align-items: center; font-size: clamp(30px, 4vw, 52px); font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; line-height: 1.1">
+<span>Teoria</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Prática</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>Planejamento de casos</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Acompanhamento de perto</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>100% online</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span>
+<span>Teoria</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Prática</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>Planejamento de casos</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Acompanhamento de perto</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>100% online</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span>
+</div>
+</div>
+
+<!-- COMPARISON -->
+<section id="mentoria" style="max-width: 1240px; margin: 0 auto; padding: clamp(72px, 12vw, 120px) clamp(20px, 4vw, 32px) clamp(40px, 6vw, 72px); display: flex; flex-direction: column; gap: 56px">
+<div class="ee-r" style="display: flex; flex-direction: column; gap: 18px; max-width: 760px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">POR QUE ONLINE</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.08; font-weight: 600; letter-spacing: -0.03em">Aprender endodontia não precisa <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">custar a sua agenda.</span></h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+<div class="ee-r ee-r-left" style="flex: 1 1 420px; min-width: 0; border: 1px solid rgba(255,255,255,0.08); border-radius: 24px; padding: clamp(24px, 5vw, 40px); display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 0.2em; color: #9AA8B2; font-weight: 500">O CAMINHO DE SEMPRE</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 18px; font-size: 17px; color: #B4C0C8">
+<li style="display: flex; gap: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7D8B95" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M18 6L6 18"></path><path d="M6 6l12 12"></path></svg>Passagens e deslocamento para outro estado</li>
+<li style="display: flex; gap: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7D8B95" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M18 6L6 18"></path><path d="M6 6l12 12"></path></svg>Diárias de hotel e alimentação fora de casa</li>
+<li style="display: flex; gap: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7D8B95" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M18 6L6 18"></path><path d="M6 6l12 12"></path></svg>Dias de agenda bloqueada e pacientes remarcados</li>
+<li style="display: flex; gap: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7D8B95" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M18 6L6 18"></path><path d="M6 6l12 12"></path></svg>Dúvidas que surgem depois do curso, sem ninguém para responder</li>
+</ul>
+</div>
+<div class="ee-r ee-r-right ee-d2" style="flex: 1 1 420px; min-width: 0; border: 1px solid rgba(63,217,181,0.45); background: #12212A; border-radius: 24px; padding: clamp(24px, 5vw, 40px); display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 0.2em; color: #6FD8C4; font-weight: 500">COM A ENDO EVOLUTION</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 18px; font-size: 17px; color: #F2EEE6">
+<li style="display: flex; gap: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6L9 17l-5-5"></path></svg>Aulas online, de onde você estiver</li>
+<li style="display: flex; gap: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6L9 17l-5-5"></path></svg>Seu investimento vai direto para o aprendizado</li>
+<li style="display: flex; gap: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6L9 17l-5-5"></path></svg>Sua agenda de atendimentos continua rodando</li>
+<li style="display: flex; gap: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6L9 17l-5-5"></path></svg>Acompanhamento de perto para tirar dúvidas durante toda a mentoria</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- MANIFESTO / VIDEO -->
+<section style="position: relative; overflow: hidden; background: #0B161E; border-top: 1px solid rgba(255,255,255,0.07); border-bottom: 1px solid rgba(255,255,255,0.07)">
+<div aria-hidden="true" style="position: absolute; right: 8%; top: 50%; width: 700px; height: 700px; transform: translateY(-50%); background: radial-gradient(closest-side, rgba(111,216,196,0.16), rgba(111,216,196,0) 100%); pointer-events: none"></div>
+<div style="position: relative; max-width: 1240px; margin: 0 auto; padding: clamp(72px, 12vw, 120px) clamp(20px, 4vw, 32px); display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
+<div class="ee-r" style="flex: 1 1 540px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">O MÉTODO</p>
+<h2 style="margin: 0; font-size: clamp(40px, 5.6vw, 80px); line-height: 1.02; font-weight: 600; letter-spacing: -0.035em">Cada canal, <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">planejado.</span><br>Cada caso, <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">acompanhado.</span></h2>
+<p style="margin: 0; font-size: 18px; color: #B4C0C8; max-width: 520px">Você não aprende só a técnica: aprende a pensar o caso antes de abrir o dente. Diagnóstico, acesso, preparo e obturação, com um mentor revisando cada decisão.</p>
+<div style="display: flex; align-items: center; gap: 14px; padding-top: 6px; font-size: 15px; color: #D6DDE1"><span style="width: 44px; height: 1px; background: #6FD8C4"></span>Dê o play e entenda como funciona em 1 minuto.</div>
+</div>
+<div class="ee-r ee-r-scale ee-d1" style="flex: 0 1 380px; min-width: 0; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 16px">
+<div style="position: relative; width: 100%; max-width: 360px; aspect-ratio: 9 / 16; border-radius: 28px; overflow: hidden; background: #000000; border: 1px solid rgba(111,216,196,0.5); box-shadow: 0 40px 120px rgba(0,0,0,0.65), 0 0 60px rgba(111,216,196,0.12)">
+<video data-reel="1" src="assets/apresentacao.mp4" poster="assets/reel-poster.jpg" preload="metadata" aria-label="Vídeo do Prof. Dr. Christian Castilho explicando a mentoria Endo Evolution" style="width: 100%; height: 100%; object-fit: cover; display: block"></video>
+<button type="button" id="ee-unmute" style="position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); min-height: 48px; padding: 0 22px; border-radius: 999px; border: 1px solid #4FE0BE; background: rgba(11,22,30,0.82); color: #F2EEE6; font-family: inherit; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 10px; cursor: pointer; white-space: nowrap; backdrop-filter: blur(8px)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4FE0BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4z"></path><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M19 5a10 10 0 0 1 0 14"></path></svg>Assistir com som</button>
+</div>
+<span style="font-size: 13px; color: #84939D; text-align: center">1 minuto com o Prof. Dr. Christian Castilho</span>
+</div>
+</div>
+</section>
+
+<!-- PILLARS -->
+<section style="max-width: 1240px; margin: 0 auto; padding: clamp(40px, 6vw, 72px) clamp(20px, 4vw, 32px) clamp(72px, 12vw, 120px); display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px">
+<div class="ee-r" style="display: flex; flex-direction: column; gap: 18px; max-width: 640px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">O QUE VOCÊ RECEBE</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.08; font-weight: 600; letter-spacing: -0.03em">Teoria, prática e os seus casos, <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">em um só lugar.</span></h2>
+</div>
+<p class="ee-r ee-d2" style="margin: 0; max-width: 380px; font-size: 16px; color: #B4C0C8">Uma mentoria pensada para acelerar o seu aprendizado e trazer resultado para a sua clínica.</p>
+</div>
+<div class="ee-stagger" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
+<article class="ee-card ee-r" style="border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); display: flex; flex-direction: column; gap: 16px; background: #102029">
+<div style="display: flex; justify-content: space-between; align-items: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg><span style="font-size: 13px; color: #7D8B95; font-weight: 500">01</span></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.01em">Conteúdo teórico sólido</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">A base científica que sustenta cada decisão clínica, organizada de forma direta e aplicável.</p>
+</article>
+<article class="ee-card ee-r" style="border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); display: flex; flex-direction: column; gap: 16px; background: #102029">
+<div style="display: flex; justify-content: space-between; align-items: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="15" height="14" rx="2"></rect><path d="M17 10l5-3v10l-5-3"></path></svg><span style="font-size: 13px; color: #7D8B95; font-weight: 500">02</span></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.01em">Demonstrações práticas</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Veja o passo a passo clínico em detalhe, do acesso à obturação, quantas vezes precisar.</p>
+</article>
+<article class="ee-card ee-r" style="border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); display: flex; flex-direction: column; gap: 16px; background: #102029">
+<div style="display: flex; justify-content: space-between; align-items: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"></path><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"></path></svg><span style="font-size: 13px; color: #7D8B95; font-weight: 500">03</span></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.01em">Planejamento dos seus casos</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Leve os casos do seu consultório e planeje cada um junto com o professor, antes de atender.</p>
+</article>
+<article class="ee-card ee-r" style="border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); display: flex; flex-direction: column; gap: 16px; background: #102029">
+<div style="display: flex; justify-content: space-between; align-items: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><span style="font-size: 13px; color: #7D8B95; font-weight: 500">04</span></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.01em">Acompanhamento de perto</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Canal direto para tirar dúvidas. Você não fica sozinho entre uma aula e o próximo paciente.</p>
+</article>
+<article class="ee-card ee-r" style="border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); display: flex; flex-direction: column; gap: 16px; background: #102029">
+<div style="display: flex; justify-content: space-between; align-items: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"></path><path d="M14 7h7v7"></path></svg><span style="font-size: 13px; color: #7D8B95; font-weight: 500">05</span></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.01em">Aprendizado acelerado</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Feedback rápido em cima da sua prática real encurta o caminho até a segurança clínica.</p>
+</article>
+<article class="ee-card ee-r" style="border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); display: flex; flex-direction: column; gap: 16px; background: #102029">
+<div style="display: flex; justify-content: space-between; align-items: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8"></path><path d="M12 17v4"></path></svg><span style="font-size: 13px; color: #7D8B95; font-weight: 500">06</span></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.01em">Praticidade 100% online</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Estude no seu horário, de qualquer cidade, sem viagens e sem fechar o consultório.</p>
+</article>
+</div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="como-funciona" style="background: #0F1E28; border-top: 1px solid rgba(255,255,255,0.07); border-bottom: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1240px; margin: 0 auto; padding: clamp(72px, 12vw, 120px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 64px">
+<div class="ee-r" style="display: flex; flex-direction: column; gap: 18px; max-width: 700px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">COMO FUNCIONA</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.08; font-weight: 600; letter-spacing: -0.03em">Quatro passos entre você e uma <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">endo mais segura.</span></h2>
+</div>
+<ol class="ee-stagger" style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 40px 28px">
+<li class="ee-r" style="display: flex; flex-direction: column; gap: 14px; border-top: 1px solid rgba(63,217,181,0.5); padding-top: 26px">
+<span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 44px; line-height: 1; color: #4FE0BE">01</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Inscrição</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Garanta sua vaga e receba as boas-vindas da equipe.</p>
+</li>
+<li class="ee-r" style="display: flex; flex-direction: column; gap: 14px; border-top: 1px solid rgba(63,217,181,0.5); padding-top: 26px">
+<span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 44px; line-height: 1; color: #4FE0BE">02</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Acesso ao conteúdo</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Aulas teóricas e demonstrações práticas liberadas na plataforma.</p>
+</li>
+<li class="ee-r" style="display: flex; flex-direction: column; gap: 14px; border-top: 1px solid rgba(63,217,181,0.5); padding-top: 26px">
+<span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 44px; line-height: 1; color: #4FE0BE">03</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Seus casos em pauta</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Envie seus casos clínicos e planeje cada etapa com o professor.</p>
+</li>
+<li class="ee-r" style="display: flex; flex-direction: column; gap: 14px; border-top: 1px solid rgba(63,217,181,0.5); padding-top: 26px">
+<span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 44px; line-height: 1; color: #4FE0BE">04</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Evolução contínua</h3>
+<p style="margin: 0; font-size: 15px; color: #9AA8B2">Dúvidas respondidas de perto até você atender com confiança.</p>
+</li>
+</ol>
+</div>
+</section>
+
+<!-- PLATFORM -->
+<section style="max-width: 1240px; margin: 0 auto; padding: clamp(72px, 12vw, 120px) clamp(20px, 4vw, 32px) clamp(72px, 12vw, 140px); display: flex; flex-direction: column; gap: 64px; align-items: center">
+<div class="ee-r" style="display: flex; flex-direction: column; gap: 18px; align-items: center; text-align: center; max-width: 760px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">A PLATAFORMA</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.08; font-weight: 600; letter-spacing: -0.03em">Sua mentoria no notebook <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">e no bolso.</span></h2>
+<p style="margin: 0; font-size: 17px; color: #B4C0C8">Assista às aulas entre um paciente e outro, envie seus casos pelo celular e acompanhe o retorno do professor.</p>
+</div>
+<div class="ee-r ee-r-scale ee-d1" style="position: relative; width: 100%; max-width: 920px">
+<!-- laptop -->
+<div style="background: #152530; border: 1px solid rgba(255,255,255,0.1); border-radius: 18px 18px 6px 6px; padding: 14px; box-shadow: 0 40px 120px rgba(0,0,0,0.6)">
+<div class="ee-screen" style="background: #0A141B; border-radius: 8px; overflow: hidden; aspect-ratio: 16 / 10; display: flex; flex-direction: column">
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; border-bottom: 1px solid rgba(255,255,255,0.07); font-size: 12px">
+<img src="assets/logo.png" alt="Endo Evolution" style="height: 22px; width: auto; display: block">
+<span class="ee-hide-sm" style="color: #84939D">Módulo 2 · Acesso e localização de canais</span>
+</div>
+<div style="flex: 1; display: flex; min-height: 0">
+<div style="flex: 1 1 auto; min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+<div class="ee-zoom" style="position: relative; flex: 1; border-radius: 8px; overflow: hidden; background: #12222C">
+<img src="assets/christian.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block; opacity: 0.75">
+<div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center">
+<span style="width: 58px; height: 58px; border-radius: 50%; background: rgba(63,217,181,0.92); display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="#0B161E" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span>
+</div>
+<div style="position: absolute; left: 14px; right: 14px; bottom: 12px; height: 3px; background: rgba(255,255,255,0.2); border-radius: 2px"><div style="width: 38%; height: 3px; background: #6FD8C4; border-radius: 2px"></div></div>
+</div>
+<span style="font-size: 13px; font-weight: 500">Aula 4 · Demonstração prática</span>
+</div>
+<div class="ee-hide-sm" style="flex: 0 0 34%; border-left: 1px solid rgba(255,255,255,0.07); padding: 14px; display: flex; flex-direction: column; gap: 8px; font-size: 11px">
+<span style="color: #84939D; letter-spacing: 0.14em; font-size: 10px">CONTEÚDO</span>
+<div style="display: flex; gap: 8px; align-items: center; padding: 8px; border-radius: 6px; color: #84939D"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="3" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>Diagnóstico e planejamento</div>
+<div style="display: flex; gap: 8px; align-items: center; padding: 8px; border-radius: 6px; background: rgba(111,216,196,0.12); color: #F2EEE6"><span style="width: 6px; height: 6px; border-radius: 50%; background: #6FD8C4; margin: 0 3px"></span>Acesso e localização</div>
+<div style="display: flex; gap: 8px; align-items: center; padding: 8px; border-radius: 6px; color: #84939D"><span style="width: 6px; height: 6px; border-radius: 50%; border: 1px solid #7D8B95; margin: 0 3px"></span>Preparo químico-mecânico</div>
+<div style="display: flex; gap: 8px; align-items: center; padding: 8px; border-radius: 6px; color: #84939D"><span style="width: 6px; height: 6px; border-radius: 50%; border: 1px solid #7D8B95; margin: 0 3px"></span>Obturação</div>
+<div style="display: flex; gap: 8px; align-items: center; padding: 8px; border-radius: 6px; color: #84939D"><span style="width: 6px; height: 6px; border-radius: 50%; border: 1px solid #7D8B95; margin: 0 3px"></span>Planejamento de casos</div>
+</div>
+</div>
+</div>
+</div>
+<div style="height: 14px; margin: 0 -4%; background: #1B2B35; border-radius: 0 0 14px 14px; border: 1px solid rgba(255,255,255,0.08); border-top: 0"></div>
+<!-- phone -->
+<div class="ee-hide-sm ee-r ee-r-right ee-d4" style="position: absolute; right: -40px; bottom: -50px; width: 200px; background: #152530; border: 1px solid rgba(255,255,255,0.12); border-radius: 30px; padding: 8px; box-shadow: 0 30px 80px rgba(0,0,0,0.7)">
+<div style="background: #0A141B; border-radius: 23px; padding: 16px 12px; display: flex; flex-direction: column; gap: 10px; aspect-ratio: 9 / 18">
+<div style="width: 50px; height: 5px; border-radius: 3px; background: #243640; margin: 0 auto 4px"></div>
+<span style="font-size: 12px; font-weight: 600">Seus casos</span>
+<div style="border-radius: 12px; background: #13232D; border: 1px solid rgba(255,255,255,0.07); padding: 10px; display: flex; flex-direction: column; gap: 6px">
+<div style="height: 64px; border-radius: 8px; background: #1B2B35; display: flex; align-items: center; justify-content: center"><svg width="30" height="40" viewBox="0 0 30 40" fill="none" stroke="rgba(242,238,230,0.5)" stroke-width="1.2" aria-hidden="true"><path d="M8 3c-3 0-5 3-4 7 1 4 3 6 3 10 0 6 1 15 4 15 2 0 2-8 4-10 2 2 2 10 4 10 3 0 4-9 4-15 0-4 2-6 3-10 1-4-1-7-4-7-3 0-4 2-7 2S11 3 8 3z"></path></svg></div>
+<span style="font-size: 10px; font-weight: 500">Caso 12 · Molar inferior</span>
+<span style="font-size: 9px; color: #6FD8C4; display: flex; align-items: center; gap: 4px"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="3" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>Planejamento revisado</span>
+</div>
+<div style="align-self: flex-start; max-width: 88%; border-radius: 12px 12px 12px 3px; background: #14262F; border: 1px solid rgba(111,216,196,0.35); padding: 8px 10px; font-size: 9.5px; line-height: 1.45; color: #D6DDE1">Atenção à curvatura da raiz mesial. Vamos ajustar o comprimento de trabalho.</div>
+<div style="align-self: flex-end; max-width: 80%; border-radius: 12px 12px 3px 12px; background: #3FD9B5; color: #062A26; padding: 8px 10px; font-size: 9.5px; line-height: 1.45; font-weight: 500">Perfeito, professor! Atendo amanhã.</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROFESSOR -->
+<section id="professor" style="max-width: 1240px; margin: 0 auto; padding: clamp(72px, 12vw, 120px) clamp(20px, 4vw, 32px); display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
+<div class="ee-r ee-r-left" style="flex: 1 1 360px; min-width: 0; max-width: 460px; margin: 0 auto">
+<div class="ee-zoom" style="border-radius: 28px; overflow: hidden; aspect-ratio: 1 / 1; background: #12222C; border: 1px solid rgba(255,255,255,0.08)">
+<img src="assets/christian.jpg" alt="Retrato do Prof. Dr. Christian Castilho" style="width: 100%; height: 100%; object-fit: cover; object-position: 40% 30%; display: block">
+</div>
+</div>
+<div class="ee-r ee-r-right ee-d1" style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">QUEM VAI TE ACOMPANHAR</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.08; font-weight: 600; letter-spacing: -0.03em">Prof. Dr. <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">Christian Castilho</span></h2>
+<p style="margin: 0; font-size: 18px; color: #B4C0C8">[Mini-bio: formação, especializações, mestrado/doutorado, anos de experiência clínica e de docência em endodontia.]</p>
+<p style="margin: 0; font-size: 18px; color: #B4C0C8">Depois de formar mais de 1.500 dentistas, criou a Endo Evolution para levar esse acompanhamento a quem não pode parar a clínica para estudar.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 40px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08)">
+<div style="display: flex; flex-direction: column"><span style="font-size: 40px; font-weight: 600; letter-spacing: -0.03em; color: #4FE0BE">+1.500</span><span style="font-size: 14px; color: #9AA8B2">alunos</span></div>
+<div style="display: flex; flex-direction: column"><span style="font-size: 40px; font-weight: 600; letter-spacing: -0.03em; color: #4FE0BE">[XX]</span><span style="font-size: 14px; color: #9AA8B2">anos de experiência</span></div>
+<div style="display: flex; flex-direction: column"><span style="font-size: 40px; font-weight: 600; letter-spacing: -0.03em; color: #4FE0BE">100%</span><span style="font-size: 14px; color: #9AA8B2">online</span></div>
+</div>
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+
+
+<!-- OFFER -->
+<section id="depoimentos" style="background: #0F1E28; border-top: 1px solid rgba(255,255,255,0.07); border-bottom: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1240px; margin: 0 auto; padding: clamp(72px, 12vw, 120px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px">
+<div class="ee-r" style="display: flex; flex-direction: column; gap: 18px; max-width: 680px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">QUEM JÁ PASSOU POR AQUI</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.08; font-weight: 600; letter-spacing: -0.03em">Dentistas que <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">evoluíram</span> com o Christian.</h2>
+</div>
+<p class="ee-r ee-d2" style="margin: 0; font-size: 14px; color: #84939D; display: flex; align-items: center; gap: 8px">Arraste para ver mais<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></p>
+</div>
+<div class="ee-snap ee-r ee-d1" style="display: flex; gap: 20px; overflow-x: auto; padding-bottom: 16px">
+<figure style="margin: 0; flex: 0 0 min(380px, 84%); border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); background: #102029; display: flex; flex-direction: column; gap: 26px; justify-content: space-between">
+<svg width="34" height="26" viewBox="0 0 34 26" fill="#4FE0BE" aria-hidden="true"><path d="M0 26V15C0 6.5 4.5 1.5 13 0l1.5 3.5C9.5 5 7.5 8 7.5 12H14v14H0zm19 0V15c0-8.5 4.5-13.5 13-15l1.5 3.5C28.5 5 26.5 8 26.5 12H33v14H19z"></path></svg>
+<blockquote style="margin: 0; font-size: 18px; line-height: 1.55; color: #E3E8EB">[Depoimento do aluno: 2 a 3 frases sobre o antes e depois na clínica.]</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 14px"><span style="width: 48px; height: 48px; border-radius: 50%; background: #1A2C36; border: 1px solid rgba(63,217,181,0.4); display: flex; align-items: center; justify-content: center; font-size: 14px; color: #4FE0BE; font-weight: 600">AB</span><span style="display: flex; flex-direction: column"><span style="font-weight: 600; font-size: 15px">[Nome do aluno]</span><span style="font-size: 13px; color: #84939D">[Cidade / UF]</span></span></figcaption>
+</figure>
+<figure style="margin: 0; flex: 0 0 min(380px, 84%); border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); background: #102029; display: flex; flex-direction: column; gap: 26px; justify-content: space-between">
+<svg width="34" height="26" viewBox="0 0 34 26" fill="#4FE0BE" aria-hidden="true"><path d="M0 26V15C0 6.5 4.5 1.5 13 0l1.5 3.5C9.5 5 7.5 8 7.5 12H14v14H0zm19 0V15c0-8.5 4.5-13.5 13-15l1.5 3.5C28.5 5 26.5 8 26.5 12H33v14H19z"></path></svg>
+<blockquote style="margin: 0; font-size: 18px; line-height: 1.55; color: #E3E8EB">[Depoimento do aluno: o que mudou na segurança para atender casos de endo.]</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 14px"><span style="width: 48px; height: 48px; border-radius: 50%; background: #1A2C36; border: 1px solid rgba(63,217,181,0.4); display: flex; align-items: center; justify-content: center; font-size: 14px; color: #4FE0BE; font-weight: 600">CD</span><span style="display: flex; flex-direction: column"><span style="font-weight: 600; font-size: 15px">[Nome do aluno]</span><span style="font-size: 13px; color: #84939D">[Cidade / UF]</span></span></figcaption>
+</figure>
+<figure style="margin: 0; flex: 0 0 min(380px, 84%); border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); background: #102029; display: flex; flex-direction: column; gap: 26px; justify-content: space-between">
+<svg width="34" height="26" viewBox="0 0 34 26" fill="#4FE0BE" aria-hidden="true"><path d="M0 26V15C0 6.5 4.5 1.5 13 0l1.5 3.5C9.5 5 7.5 8 7.5 12H14v14H0zm19 0V15c0-8.5 4.5-13.5 13-15l1.5 3.5C28.5 5 26.5 8 26.5 12H33v14H19z"></path></svg>
+<blockquote style="margin: 0; font-size: 18px; line-height: 1.55; color: #E3E8EB">[Depoimento do aluno: sobre estudar online sem parar a agenda.]</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 14px"><span style="width: 48px; height: 48px; border-radius: 50%; background: #1A2C36; border: 1px solid rgba(63,217,181,0.4); display: flex; align-items: center; justify-content: center; font-size: 14px; color: #4FE0BE; font-weight: 600">EF</span><span style="display: flex; flex-direction: column"><span style="font-weight: 600; font-size: 15px">[Nome do aluno]</span><span style="font-size: 13px; color: #84939D">[Cidade / UF]</span></span></figcaption>
+</figure>
+<figure style="margin: 0; flex: 0 0 min(380px, 84%); border: 1px solid rgba(255,255,255,0.08); border-radius: 22px; padding: clamp(24px, 5vw, 34px); background: #102029; display: flex; flex-direction: column; gap: 26px; justify-content: space-between">
+<svg width="34" height="26" viewBox="0 0 34 26" fill="#4FE0BE" aria-hidden="true"><path d="M0 26V15C0 6.5 4.5 1.5 13 0l1.5 3.5C9.5 5 7.5 8 7.5 12H14v14H0zm19 0V15c0-8.5 4.5-13.5 13-15l1.5 3.5C28.5 5 26.5 8 26.5 12H33v14H19z"></path></svg>
+<blockquote style="margin: 0; font-size: 18px; line-height: 1.55; color: #E3E8EB">[Depoimento do aluno: sobre o acompanhamento e o planejamento dos casos.]</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 14px"><span style="width: 48px; height: 48px; border-radius: 50%; background: #1A2C36; border: 1px solid rgba(63,217,181,0.4); display: flex; align-items: center; justify-content: center; font-size: 14px; color: #4FE0BE; font-weight: 600">GH</span><span style="display: flex; flex-direction: column"><span style="font-weight: 600; font-size: 15px">[Nome do aluno]</span><span style="font-size: 13px; color: #84939D">[Cidade / UF]</span></span></figcaption>
+</figure>
+</div>
+
+<!-- before / after -->
+<div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center; padding-top: 40px">
+<div class="ee-r ee-r-left" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">CASOS CLÍNICOS</p>
+<h3 style="margin: 0; font-size: clamp(28px, 3vw, 40px); line-height: 1.12; font-weight: 600; letter-spacing: -0.02em">O resultado aparece <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">na radiografia.</span></h3>
+<p style="margin: 0; font-size: 16px; color: #B4C0C8">Arraste para comparar a radiografia inicial com a final. [Legenda do caso: dente, desafio e tempo de tratamento.]</p>
+</div>
+<div class="ee-r ee-r-right ee-d1" style="flex: 1 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<div style="position: relative; aspect-ratio: 16 / 10; border-radius: 20px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); background: #1B1B1E">
+<div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #1E1E21">
+<svg viewBox="0 0 420 500" height="78%" aria-hidden="true" style="opacity: 0.9"><path d="M130 40 C 100 40, 90 80, 96 120 C 102 160, 120 180, 126 220 C 134 280, 130 360, 150 420 C 158 444, 178 440, 182 410 C 188 360, 192 300, 210 280 C 228 300, 232 360, 238 410 C 242 440, 262 444, 270 420 C 290 360, 286 280, 294 220 C 300 180, 318 160, 324 120 C 330 80, 320 40, 290 40 C 260 40, 245 58, 210 58 C 175 58, 160 40, 130 40 Z" fill="rgba(242,238,230,0.10)" stroke="rgba(242,238,230,0.35)" stroke-width="2"></path><path d="M178 165 C 172 220, 164 300, 160 410" stroke="#F2EEE6" stroke-width="7" stroke-linecap="round" fill="none"></path><path d="M242 165 C 248 220, 256 300, 260 410" stroke="#F2EEE6" stroke-width="7" stroke-linecap="round" fill="none"></path></svg>
+<span style="position: absolute; right: 16px; top: 14px; font-size: 11px; letter-spacing: 0.2em; color: #6FD8C4; background: rgba(11,22,30,0.7); padding: 6px 10px; border-radius: 999px">FINAL</span>
+<span style="position: absolute; right: 16px; bottom: 14px; font-size: 12px; color: #84939D">[Foto da radiografia final]</span>
+</div>
+<div id="ee-before" style="position: absolute; top: 0; bottom: 0; left: 0; width: 50%; overflow: hidden; border-right: 2px solid #4FE0BE">
+<div id="ee-before-inner" style="position: absolute; top: 0; bottom: 0; left: 0; width: 200%; display: flex; align-items: center; justify-content: center; background: #151517">
+<svg viewBox="0 0 420 500" height="78%" aria-hidden="true" style="opacity: 0.9"><path d="M130 40 C 100 40, 90 80, 96 120 C 102 160, 120 180, 126 220 C 134 280, 130 360, 150 420 C 158 444, 178 440, 182 410 C 188 360, 192 300, 210 280 C 228 300, 232 360, 238 410 C 242 440, 262 444, 270 420 C 290 360, 286 280, 294 220 C 300 180, 318 160, 324 120 C 330 80, 320 40, 290 40 C 260 40, 245 58, 210 58 C 175 58, 160 40, 130 40 Z" fill="rgba(242,238,230,0.07)" stroke="rgba(242,238,230,0.25)" stroke-width="2"></path><circle cx="160" cy="430" r="22" fill="rgba(0,0,0,0.5)"></circle></svg>
+<span style="position: absolute; left: 16px; top: 14px; font-size: 11px; letter-spacing: 0.2em; color: #C5CED4; background: rgba(11,22,30,0.7); padding: 6px 10px; border-radius: 999px">INICIAL</span>
+<span style="position: absolute; left: 16px; bottom: 14px; font-size: 12px; color: #84939D; white-space: nowrap">[Foto da radiografia inicial]</span>
+</div>
+</div>
+</div>
+<label style="display: flex; flex-direction: column; gap: 0"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Comparar radiografia inicial e final</span>
+<input class="ee-range" type="range" min="0" max="100" value="50" id="ee-range">
+</label>
+</div>
+</div>
+</div>
+</section><section id="inscricao" style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 32px) clamp(72px, 12vw, 120px)">
+<div class="ee-r ee-r-scale" style="border: 1px solid rgba(63,217,181,0.45); border-radius: 32px; background: #10202A; padding: clamp(22px, 6vw, 72px); display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">INSCRIÇÕES ABERTAS · TURMA [MÊS/ANO]</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.08; font-weight: 600; letter-spacing: -0.03em">Comece a sua <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE">evolução</span> agora.</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #D6DDE1">
+<li style="display: flex; gap: 12px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 4px"><path d="M20 6L9 17l-5-5"></path></svg>Aulas teóricas e demonstrações práticas</li>
+<li style="display: flex; gap: 12px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 4px"><path d="M20 6L9 17l-5-5"></path></svg>Planejamento dos seus casos clínicos</li>
+<li style="display: flex; gap: 12px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 4px"><path d="M20 6L9 17l-5-5"></path></svg>Acompanhamento direto com o professor</li>
+<li style="display: flex; gap: 12px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 4px"><path d="M20 6L9 17l-5-5"></path></svg>[Nº] vagas por turma</li>
+</ul>
+<div style="display: flex; flex-direction: column; gap: 12px; padding-top: 10px">
+<span style="font-size: 13px; color: #9AA8B2">As inscrições desta turma encerram em</span>
+<div style="display: flex; gap: 6px; max-width: 360px">
+<div style="flex: 1 1 0; min-width: 0; padding: 12px 4px; border-radius: 14px; background: #0B161E; border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; align-items: center"><span id="ee-cd-d" style="font-size: clamp(24px, 6vw, 30px); font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; line-height: 1.1">--</span><span style="font-size: 10px; color: #84939D; letter-spacing: 0.1em">DIAS</span></div>
+<div style="flex: 1 1 0; min-width: 0; padding: 12px 4px; border-radius: 14px; background: #0B161E; border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; align-items: center"><span id="ee-cd-h" style="font-size: clamp(24px, 6vw, 30px); font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; line-height: 1.1">--</span><span style="font-size: 10px; color: #84939D; letter-spacing: 0.1em">HORAS</span></div>
+<div style="flex: 1 1 0; min-width: 0; padding: 12px 4px; border-radius: 14px; background: #0B161E; border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; align-items: center"><span id="ee-cd-m" style="font-size: clamp(24px, 6vw, 30px); font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; line-height: 1.1">--</span><span style="font-size: 10px; color: #84939D; letter-spacing: 0.1em">MIN</span></div>
+<div style="flex: 1 1 0; min-width: 0; padding: 12px 4px; border-radius: 14px; background: #0B161E; border: 1px solid rgba(63,217,181,0.45); display: flex; flex-direction: column; align-items: center"><span id="ee-cd-s" style="font-size: clamp(24px, 6vw, 30px); font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; line-height: 1.1; color: #4FE0BE">--</span><span style="font-size: 10px; color: #84939D; letter-spacing: 0.1em">SEG</span></div>
+</div>
+</div>
+</div>
+<div class="ee-r ee-d3" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 18px; padding: clamp(22px, 5vw, 36px); border-radius: 24px; background: #0B161E; border: 1px solid rgba(255,255,255,0.08)">
+<span style="font-size: 14px; color: #9AA8B2">Investimento</span>
+<span style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1">[VALOR]</span>
+<span style="font-size: 15px; color: #9AA8B2">ou [Nº]x de [VALOR] no cartão</span>
+<a class="ee-btn" href="#" style="display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 58px; border-radius: 999px; background: #3FD9B5; color: #062A26; text-decoration: none; font-weight: 600; font-size: 16px; margin-top: 8px">Quero minha vaga
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+<a class="ee-btn" href="#" style="display: flex; align-items: center; justify-content: center; min-height: 50px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F2EEE6; text-decoration: none; font-weight: 500; font-size: 15px">Falar no WhatsApp</a>
+<div style="display: flex; align-items: center; gap: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 6px">
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" aria-hidden="true" style="flex: none"><circle cx="26" cy="26" r="24" stroke="#4FE0BE" stroke-width="1.2"></circle><circle cx="26" cy="26" r="19" stroke="#4FE0BE" stroke-width="0.8" stroke-dasharray="2 3"></circle><path d="M26 15l8 3v7c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10v-7z" stroke="#4FE0BE" stroke-width="1.4" stroke-linejoin="round"></path><path d="M22 25.5l3 3 5-5.5" stroke="#4FE0BE" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span style="display: flex; flex-direction: column; font-size: 13px; color: #9AA8B2; line-height: 1.45"><span style="color: #F2EEE6; font-weight: 600; font-size: 14px">Garantia de [7] dias</span>Não gostou? Devolvemos 100% do valor.</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="duvidas" style="max-width: 900px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 32px) clamp(72px, 12vw, 120px); display: flex; flex-direction: column; gap: 40px">
+<div class="ee-r" style="display: flex; flex-direction: column; gap: 18px; align-items: center; text-align: center">
+<p style="margin: 0; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">DÚVIDAS FREQUENTES</p>
+<h2 style="margin: 0; font-size: clamp(32px, 3.6vw, 48px); line-height: 1.1; font-weight: 600; letter-spacing: -0.03em">Antes de começar</h2>
+</div>
+<div class="ee-stagger" style="display: flex; flex-direction: column; border-top: 1px solid rgba(255,255,255,0.1)">
+<details class="ee-r" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 26px 0">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 24px; font-size: 19px; font-weight: 500; min-height: 44px">A mentoria é totalmente online?<span class="ee-plus" style="font-size: 28px; color: #4FE0BE; font-weight: 300; line-height: 1">+</span></summary>
+<p style="margin: 14px 0 0; font-size: 16px; color: #9AA8B2">Sim. Todo o conteúdo, as demonstrações e o acompanhamento acontecem online, para você não precisar viajar nem parar seus atendimentos.</p>
+</details>
+<details class="ee-r" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 26px 0">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 24px; font-size: 19px; font-weight: 500; min-height: 44px">Vou conseguir tirar dúvidas com o professor?<span class="ee-plus" style="font-size: 28px; color: #4FE0BE; font-weight: 300; line-height: 1">+</span></summary>
+<p style="margin: 14px 0 0; font-size: 16px; color: #9AA8B2">Sim. O acompanhamento de perto é um dos pilares da Endo Evolution. [Descreva o canal: grupo, encontros ao vivo, mensagens.]</p>
+</details>
+<details class="ee-r" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 26px 0">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 24px; font-size: 19px; font-weight: 500; min-height: 44px">Posso levar meus próprios casos clínicos?<span class="ee-plus" style="font-size: 28px; color: #4FE0BE; font-weight: 300; line-height: 1">+</span></summary>
+<p style="margin: 14px 0 0; font-size: 16px; color: #9AA8B2">Pode e deve. O planejamento dos seus casos com o professor é parte central da mentoria.</p>
+</details>
+<details class="ee-r" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 26px 0">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 24px; font-size: 19px; font-weight: 500; min-height: 44px">Quanto tempo dura a mentoria?<span class="ee-plus" style="font-size: 28px; color: #4FE0BE; font-weight: 300; line-height: 1">+</span></summary>
+<p style="margin: 14px 0 0; font-size: 16px; color: #9AA8B2">[DURAÇÃO e tempo de acesso ao conteúdo.]</p>
+</details>
+<details class="ee-r" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 26px 0">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 24px; font-size: 19px; font-weight: 500; min-height: 44px">Para quem é a Endo Evolution?<span class="ee-plus" style="font-size: 28px; color: #4FE0BE; font-weight: 300; line-height: 1">+</span></summary>
+<p style="margin: 14px 0 0; font-size: 16px; color: #9AA8B2">Para dentistas que querem evoluir na endodontia com segurança. [Defina o perfil: clínicos gerais, recém-formados, quem já atua na área.]</p>
+</details>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1240px; margin: 0 auto; padding: 40px clamp(20px, 4vw, 32px); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 14px; color: #9AA8B2">
+<img src="assets/logo.png" alt="Endo Evolution" style="height: 48px; width: auto; display: block">
+<span>Mentoria online em Endodontia · Prof. Dr. Christian Castilho</span>
+<a href="#" style="text-decoration: none">Instagram</a>
+</div>
+</footer>
+
+<!-- FLOATING WHATSAPP (desktop) -->
+<a class="ee-float" href="#" aria-label="Falar no WhatsApp" style="position: fixed; right: 28px; bottom: 28px; z-index: 40; width: 60px; height: 60px; border-radius: 50%; background: #12212A; border: 1px solid #4FE0BE; display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 40px rgba(0,0,0,0.55)">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4FE0BE" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.5L3 21l2-5.5A8.5 8.5 0 1 1 21 11.5z"></path><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-1.9-.9-.8.8c-1-.4-1.9-1.3-2.3-2.3l.8-.8-.9-1.9z"></path></svg>
+</a>
+
+<!-- MOBILE STICKY BAR -->
+<div class="ee-mbar" style="position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; padding: 12px 16px; gap: 10px; background: rgba(11,22,30,0.94); backdrop-filter: blur(12px); border-top: 1px solid rgba(255,255,255,0.1)">
+<a href="#inscricao" style="flex: 1; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 999px; background: #3FD9B5; color: #062A26; text-decoration: none; font-weight: 600; font-size: 15px">Quero minha vaga</a>
+<a href="#" aria-label="Falar no WhatsApp" style="flex: none; width: 52px; height: 52px; border-radius: 50%; border: 1px solid #4FE0BE; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4FE0BE" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.5L3 21l2-5.5A8.5 8.5 0 1 1 21 11.5z"></path></svg></a>
+</div>
+
+</div>
+
+<script>
+/* ===== CONFIGURAÇÕES — edite aqui ===== */
+var FIM_INSCRICOES = '2026-11-30T23:59:00-03:00'; /* data e hora em que as inscrições encerram */
+var TOTAL_ALUNOS = 1500;                          /* número final do contador */
+/* ====================================== */
+(function () {
+  var root = document.getElementById('ee-root');
+  var items = document.querySelectorAll('.ee-r');
+  var hasIO = 'IntersectionObserver' in window;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Animações de entrada ao rolar */
+  if (hasIO) {
+    root.classList.add('ee-js');
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('ee-in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    items.forEach(function (el) { io.observe(el); });
+  }
+
+  /* Contador 0 -> 1.500 */
+  var countEl = document.getElementById('ee-count');
+  var barEl = document.getElementById('ee-bar');
+  var started = false;
+  function fmt(n) { return n.toLocaleString('pt-BR'); }
+  function runCount() {
+    if (started) return; started = true;
+    if (reduce) { countEl.textContent = fmt(TOTAL_ALUNOS); barEl.style.width = '100%'; return; }
+    var T = 2600, t0 = performance.now();
+    function step(t) {
+      var p = Math.min(1, (t - t0) / T), e = 1 - Math.pow(1 - p, 4), n = Math.round(e * TOTAL_ALUNOS);
+      countEl.textContent = fmt(n); barEl.style.width = (n / TOTAL_ALUNOS * 100) + '%';
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  var counter = document.querySelector('[data-counter]');
+  if (hasIO && counter) {
+    var cio = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { runCount(); cio.disconnect(); } });
+    }, { threshold: 0.45 });
+    cio.observe(counter);
+  } else { runCount(); }
+
+  /* Contagem regressiva */
+  var end = Date.parse(FIM_INSCRICOES);
+  var cd = { d: document.getElementById('ee-cd-d'), h: document.getElementById('ee-cd-h'), m: document.getElementById('ee-cd-m'), s: document.getElementById('ee-cd-s') };
+  function pad(v) { return String(v).padStart(2, '0'); }
+  function tick() {
+    var left = isNaN(end) ? 0 : Math.max(0, end - Date.now());
+    var d = Math.floor(left / 864e5); left -= d * 864e5;
+    var h = Math.floor(left / 36e5); left -= h * 36e5;
+    var m = Math.floor(left / 6e4); left -= m * 6e4;
+    var s = Math.floor(left / 1e3);
+    cd.d.textContent = pad(d); cd.h.textContent = pad(h); cd.m.textContent = pad(m); cd.s.textContent = pad(s);
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* Comparação de radiografias */
+  var range = document.getElementById('ee-range');
+  var before = document.getElementById('ee-before');
+  var beforeInner = document.getElementById('ee-before-inner');
+  function setSplit() {
+    var v = Number(range.value);
+    before.style.width = v + '%';
+    beforeInner.style.width = v > 0 ? (10000 / v) + '%' : '100%';
+  }
+  range.addEventListener('input', setSplit); setSplit();
+
+  /* Vídeo de apresentação */
+  var reel = document.querySelector('video[data-reel]');
+  var unmute = document.getElementById('ee-unmute');
+  if (reel) {
+    reel.muted = true; reel.loop = true; reel.playsInline = true;
+    reel.setAttribute('muted', ''); reel.setAttribute('playsinline', '');
+    if (hasIO) {
+      new IntersectionObserver(function (es) {
+        es.forEach(function (e) {
+          if (e.isIntersecting) { var p = reel.play(); if (p && p.catch) p.catch(function () {}); }
+          else { reel.pause(); }
+        });
+      }, { threshold: 0.4 }).observe(reel);
+    }
+    unmute.addEventListener('click', function () {
+      reel.muted = false; reel.controls = true; reel.loop = false;
+      try { reel.currentTime = 0; } catch (err) {}
+      var p = reel.play(); if (p && p.catch) p.catch(function () {});
+      unmute.style.display = 'none';
+    });
+  }
+})();
+</script>
+</body>
+</html>
