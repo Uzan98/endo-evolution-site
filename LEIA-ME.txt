@@ -10,9 +10,9 @@ O arquivo principal é o index.html.
 ANTES DE PUBLICAR, EDITE NO index.html
 (abra num editor de texto e use "Localizar")
 
-1. Links dos botões — procure por  href="#"  (5 ocorrências):
-   - botões "Quero minha vaga" do quadro de inscrição → link da página de pagamento
-   - "Falar no WhatsApp", botão flutuante e botão da barra do celular → https://wa.me/55DDDNUMERO
+1. Links dos botões — procure por  href="#"  (4 ocorrências):
+   - "Quero minha vaga" do quadro de inscrição → link da página de pagamento
+   - "Falar no WhatsApp" (quadro de inscrição) e "WhatsApp" (rodapé) → https://wa.me/55DDDNUMERO
    - "Instagram" no rodapé → link do seu perfil
 
 2. Data do fim das inscrições — no final do arquivo:
