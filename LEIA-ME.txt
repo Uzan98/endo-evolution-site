@@ -2,38 +2,35 @@ ENDO EVOLUTION — SITE
 =====================
 
 COMO PUBLICAR
-Suba a pasta inteira (index.html + pasta "assets") para a sua hospedagem,
-mantendo a mesma estrutura. Funciona em qualquer serviço de site estático:
-Hostinger, HostGator, Netlify, Vercel, GitHub Pages etc.
-O arquivo principal é o index.html.
+O site é o index.html + a pasta "assets". Toda alteração enviada ao
+GitHub (branch main) é publicada automaticamente pelo Cloudflare Pages.
 
-ANTES DE PUBLICAR, EDITE NO index.html
-(abra num editor de texto e use "Localizar")
+O QUE EDITAR
+Abra o index.html e vá até o final do arquivo, no bloco "CONFIGURAÇÕES":
 
-1. Links dos botões — procure por  href="#"  (4 ocorrências):
-   - "Quero minha vaga" do quadro de inscrição → link da página de pagamento
-   - "Falar no WhatsApp" (quadro de inscrição) e "WhatsApp" (rodapé) → https://wa.me/55DDDNUMERO
-   - "Instagram" no rodapé → link do seu perfil
+  linkInscricao  → link da página de pagamento (botões "Quero minha vaga")
+  linkWhatsapp   → ex.: https://wa.me/5511999999999
+  linkInstagram  → link do perfil
+  preco          → ex.: 12x de R$ 297 ou R$ 2.970 à vista
+  fimInscricoes  → ex.: 2026-12-15 (mostra "Abertas até 15 de dezembro")
+  garantia       → ex.: 7 dias: não gostou, devolvemos 100% do valor
+  totalAlunos    → número final do contador (1500)
 
-2. Data do fim das inscrições — no final do arquivo:
-   var FIM_INSCRICOES = '2026-11-30T23:59:00-03:00';
-   (formato: ano-mês-dia T hora:minuto:segundo -03:00 = horário de Brasília)
+Campo vazio = a informação não aparece no site. Nada fica com
+"[colchetes]" à mostra.
 
-3. Endereço do site — procure por  SEU-DOMINIO  (2 ocorrências)
-   e troque pelo seu domínio. Isso faz a prévia do link aparecer no WhatsApp.
+Enquanto linkInscricao estiver vazio, o botão principal usa o WhatsApp
+(se preenchido) ou apenas rola até a seção de inscrição.
 
-4. Textos entre colchetes [ ] — mini-bio, anos de experiência, valor,
-   parcelamento, turma, vagas, garantia, duração, perfil do aluno,
-   depoimentos e legenda do caso clínico.
-
-5. Radiografias — a comparação "inicial x final" ainda mostra um desenho
-   de exemplo. Quando tiver as imagens, me envie que eu substituo.
+PRÉVIA DO LINK NO WHATSAPP
+No topo do index.html, troque SEU-DOMINIO (2 ocorrências) pelo endereço
+real do site.
 
 ARQUIVOS DA PASTA assets
-- apresentacao.mp4 ... vídeo da seção "O Método" (versão otimizada, 6 MB)
-- christian.jpg ...... foto do professor
-- logo.png ........... logo para fundo escuro
+- christian-*.jpg ..... fotos do professor (recortes das fotos enviadas)
+- apresentacao.mp4 .... vídeo da seção "O método" (versão otimizada, 6 MB)
+- reel-poster.jpg ..... capa do vídeo
+- logo.png ............ logo para fundo escuro
+- fonts/ .............. fontes do site (hospedadas junto, sem Google Fonts)
 - icone.png / favicon-32.png ... ícone da aba do navegador e do celular
-- compartilhar.jpg ... imagem que aparece ao compartilhar o link
-- reel-poster.jpg .... capa do vídeo
-- grain.png .......... textura de fundo
+- compartilhar.jpg .... imagem que aparece ao compartilhar o link
