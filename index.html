@@ -53,7 +53,7 @@ details[open] .ee-plus{transform:rotate(45deg)}
 .ee-grain{position:relative}
 .ee-grain::after{content:"";position:absolute;inset:0;background-image:url(assets/grain.png);background-size:220px 220px;opacity:.05;mix-blend-mode:overlay;pointer-events:none;z-index:50}
 @keyframes ee-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.ee-marquee{animation:ee-marquee 38s linear infinite}
+.ee-marquee{animation:ee-marquee 38s linear infinite;will-change:transform}
 .ee-outline{color:transparent;-webkit-text-stroke:1px rgba(111,216,196,.75)}
 .ee-js .ee-draw{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2.6s cubic-bezier(.55,.1,.2,1)}
 .ee-js .ee-in .ee-draw{stroke-dashoffset:0}
@@ -74,7 +74,6 @@ details[open] .ee-plus{transform:rotate(45deg)}
 .ee-range::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:#4FE0BE;border:4px solid #0B161E}
 .ee-range:focus-visible{outline:2px solid #4FE0BE;outline-offset:4px}
 @media (max-width: 760px){.ee-mentor{left:12px!important;bottom:20px!important}.ee-screen{aspect-ratio:4 / 3!important}.ee-hide-sm{display:none!important}}
-@media (prefers-reduced-motion: reduce){.ee-marquee{animation:none}}
 </style>
 </head>
 <body>
@@ -155,9 +154,9 @@ MENTORIA ONLINE EM ENDODONTIA
 
 <!-- MARQUEE -->
 <div aria-hidden="true" style="overflow: hidden; border-bottom: 1px solid rgba(255,255,255,0.07); padding: 26px 0">
-<div class="ee-marquee" style="display: flex; width: max-content; gap: 48px; align-items: center; font-size: clamp(30px, 4vw, 52px); font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; line-height: 1.1">
-<span>Teoria</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Prática</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>Planejamento de casos</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Acompanhamento de perto</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>100% online</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span>
-<span>Teoria</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Prática</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>Planejamento de casos</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Acompanhamento de perto</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>100% online</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span>
+<div class="ee-marquee" style="display: flex; width: max-content; font-size: clamp(30px, 4vw, 52px); font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; line-height: 1.1">
+<div class="ee-mq-g" style="display: flex; flex: none; gap: 48px; align-items: center; padding-right: 48px"><span>Teoria</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Prática</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>Planejamento de casos</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Acompanhamento de perto</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>100% online</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span></div>
+<div class="ee-mq-g" style="display: flex; flex: none; gap: 48px; align-items: center; padding-right: 48px"><span>Teoria</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Prática</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>Planejamento de casos</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span class="ee-outline">Acompanhamento de perto</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span><span>100% online</span><span style="color: #4FE0BE; font-size: 0.5em">◆</span></div>
 </div>
 </div>
 
