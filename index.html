@@ -22,6 +22,31 @@
 <style>
 body{margin:0;background:#0B161E}
 [hidden]{display:none!important}
+/* ===== Abertura ===== */
+:root{--t0:.05s}
+.ee-anim h1.ee-h1{visibility:hidden}
+.ee-anim h1.ee-h1.ee-split{visibility:visible}
+.ee-w{display:inline-block;overflow:hidden;vertical-align:top;padding:0 .07em .1em 0;margin:0 -.07em -.1em 0}
+.ee-w>span{display:inline-block}
+.ee-anim .ee-w>span{animation:ee-rise 1s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--t0) + .12s + var(--i) * 45ms)}
+.ee-anim .ee-h-up{animation:ee-up .95s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--t0) + var(--d, 0s))}
+.ee-anim .ee-h-head{animation:ee-down .9s cubic-bezier(.16,1,.3,1) both;animation-delay:var(--t0)}
+.ee-anim .ee-h-photo{animation:ee-wipe 1.35s cubic-bezier(.76,0,.24,1) both;animation-delay:calc(var(--t0) + .2s)}
+.ee-anim .ee-h-photo img{animation:ee-zoomout 2s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--t0) + .2s)}
+.ee-anim .ee-h-frame{animation:ee-frame 1.2s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--t0) + 1s)}
+.ee-anim .ee-h-card{animation:ee-left 1s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--t0) + 1.15s)}
+.ee-h-glow{position:absolute;inset:-12% -18%;z-index:-1;pointer-events:none;background:radial-gradient(closest-side,rgba(63,217,181,.18),rgba(63,217,181,0));opacity:0}
+.ee-anim .ee-h-glow{animation:ee-glow-in 1.6s ease calc(var(--t0) + .6s) forwards,ee-breathe 7s ease-in-out calc(var(--t0) + 2.2s) infinite alternate}
+@keyframes ee-rise{from{transform:translateY(110%)}to{transform:none}}
+@keyframes ee-up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes ee-down{from{opacity:0;transform:translateY(-100%)}to{opacity:1;transform:none}}
+@keyframes ee-left{from{opacity:0;transform:translateX(-32px)}to{opacity:1;transform:none}}
+@keyframes ee-wipe{from{clip-path:inset(100% 0 0 0 round 28px)}to{clip-path:inset(0 0 0 0 round 28px)}}
+@keyframes ee-zoomout{from{transform:scale(1.25)}to{transform:scale(1)}}
+@keyframes ee-frame{from{opacity:0;transform:translate(-18px,18px)}to{opacity:1;transform:none}}
+@keyframes ee-glow-in{to{opacity:1}}
+@keyframes ee-breathe{from{opacity:1;transform:scale(1)}to{opacity:.55;transform:scale(1.06)}}
+
 a{color:#4FE0BE}a:hover{color:#7FEBD0}
 html{scroll-behavior:smooth}
 .ee-btn{transition:transform .2s ease, background-color .2s ease, border-color .2s ease}
@@ -93,11 +118,12 @@ details[open] .ee-plus{transform:rotate(45deg)}
 </style>
 </head>
 <body>
+<script>document.documentElement.classList.add('ee-anim');</script>
 
 <div id="ee-root" class="ee-grain" style="background: #0B161E; color: #F2EEE6; font-family: 'Sora', system-ui, sans-serif; font-weight: 300; line-height: 1.6; overflow-x: clip">
 
 <!-- NAV -->
-<header style="position: sticky; top: 0; z-index: 10; background: rgba(11,22,30,0.86); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,0.07)">
+<header class="ee-h-head" style="position: sticky; top: 0; z-index: 10; background: rgba(11,22,30,0.86); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,0.07)">
 <nav style="max-width: 1240px; margin: 0 auto; padding: 14px clamp(20px, 4vw, 32px); display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: 16px">
 <a href="#topo" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #F2EEE6">
 <img src="assets/logo.png" alt="Endo Evolution" style="height: 42px; width: auto; display: block">
@@ -115,30 +141,53 @@ details[open] .ee-plus{transform:rotate(45deg)}
 <!-- HERO -->
 <section id="topo" style="position: relative; max-width: 1240px; margin: 0 auto; padding: clamp(40px, 6vw, 72px) clamp(20px, 4vw, 32px) clamp(64px, 8vw, 96px); display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
 <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
-<div class="ee-r ee-eyebrow" style="display: flex; align-items: center; gap: 12px; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">
+<div class="ee-h-up ee-eyebrow" style="--d: .05s; display: flex; align-items: center; gap: 12px; font-size: 12px; letter-spacing: 0.28em; color: #6FD8C4; font-weight: 500">
 <span class="ee-dot" style="width: 7px; height: 7px; border-radius: 50%; background: #6FD8C4"></span>
 MENTORIA ONLINE EM ENDODONTIA
 </div>
-<h1 class="ee-r ee-d1" style="margin: 0; font-size: clamp(40px, 5.4vw, 74px); line-height: 1.04; font-weight: 600; letter-spacing: -0.03em">A endodontia que você quer dominar, <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE; letter-spacing: -0.01em">sem sair do seu consultório.</span></h1>
-<p class="ee-r ee-d2" style="margin: 0; font-size: 19px; color: #B4C0C8; max-width: 560px"><span class="ee-hide-sm">Conteúdo teórico, demonstrações práticas e o planejamento dos seus próprios casos clínicos, com acompanhamento de perto do Prof. Dr. Christian Castilho. Tudo online, no seu ritmo.</span><span class="ee-show-sm">Teoria, prática e os seus casos planejados com o Prof. Dr. Christian Castilho. 100% online.</span></p>
-<div class="ee-r ee-d3" style="display: flex; flex-wrap: wrap; gap: 14px; padding-top: 6px">
+<h1 class="ee-h1" style="margin: 0; font-size: clamp(40px, 5.4vw, 74px); line-height: 1.04; font-weight: 600; letter-spacing: -0.03em">A endodontia que você quer dominar, <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE; letter-spacing: -0.01em">sem sair do seu consultório.</span></h1>
+<script>
+(function () {
+  var h1 = document.querySelector('h1.ee-h1'), n = 0;
+  function wrap(node) {
+    Array.prototype.slice.call(node.childNodes).forEach(function (c) {
+      if (c.nodeType === 3) {
+        var frag = document.createDocumentFragment();
+        c.textContent.split(/(\s+)/).forEach(function (part) {
+          if (!part) return;
+          if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+          var o = document.createElement('span'), w = document.createElement('span');
+          o.className = 'ee-w'; w.textContent = part; w.style.setProperty('--i', n++);
+          o.appendChild(w); frag.appendChild(o);
+        });
+        c.parentNode.replaceChild(frag, c);
+      } else if (c.nodeType === 1) { wrap(c); }
+    });
+  }
+  h1.setAttribute('aria-label', h1.textContent.replace(/\s+/g, ' ').trim());
+  wrap(h1); h1.classList.add('ee-split');
+})();
+</script>
+<p class="ee-h-up" style="--d: .55s; margin: 0; font-size: 19px; color: #B4C0C8; max-width: 560px"><span class="ee-hide-sm">Conteúdo teórico, demonstrações práticas e o planejamento dos seus próprios casos clínicos, com acompanhamento de perto do Prof. Dr. Christian Castilho. Tudo online, no seu ritmo.</span><span class="ee-show-sm">Teoria, prática e os seus casos planejados com o Prof. Dr. Christian Castilho. 100% online.</span></p>
+<div class="ee-h-up" style="--d: .7s; display: flex; flex-wrap: wrap; gap: 14px; padding-top: 6px">
 <a class="ee-btn" href="#inscricao" data-track="cta" data-local="topo" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 32px; border-radius: 999px; background: #3FD9B5; color: #062A26; text-decoration: none; font-weight: 600; font-size: 16px">Quero minha vaga
 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
 <a class="ee-btn ee-hide-sm" href="#como-funciona" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 30px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); color: #F2EEE6; text-decoration: none; font-weight: 500; font-size: 16px">Ver como funciona</a>
 </div>
-<div class="ee-r ee-d4" style="display: flex; flex-wrap: wrap; gap: 22px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 14px; color: #C5CED4">
+<div class="ee-h-up" style="--d: .85s; display: flex; flex-wrap: wrap; gap: 22px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 14px; color: #C5CED4">
 <span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>Sem passagens</span>
 <span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>Sem hotel</span>
 <span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6FD8C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>Sem parar sua agenda</span>
 </div>
 </div>
 
-<div class="ee-r ee-r-scale ee-d2" style="flex: 1 1 380px; min-width: 0; max-width: 500px; margin: 0 auto; position: relative">
-<div style="position: absolute; top: -18px; right: -18px; bottom: 18px; left: 18px; border: 1px solid rgba(63,217,181,0.4); border-radius: 28px"></div>
-<div class="ee-zoom" style="position: relative; border-radius: 28px; overflow: hidden; aspect-ratio: 4 / 5; background: #12222C">
+<div style="flex: 1 1 380px; min-width: 0; max-width: 500px; margin: 0 auto; position: relative; isolation: isolate">
+<div class="ee-h-glow" aria-hidden="true"></div>
+<div class="ee-h-frame" style="position: absolute; top: -18px; right: -18px; bottom: 18px; left: 18px; border: 1px solid rgba(63,217,181,0.4); border-radius: 28px"></div>
+<div class="ee-h-photo" style="position: relative; border-radius: 28px; overflow: hidden; aspect-ratio: 4 / 5; background: #12222C">
 <img src="assets/christian.jpg" alt="Prof. Dr. Christian Castilho sorrindo à mesa do consultório" width="1200" height="1500" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block">
 </div>
-<div class="ee-r ee-r-left ee-d5 ee-mentor" style="position: absolute; left: -24px; bottom: 36px; background: rgba(11,22,30,0.92); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 18px; padding: 16px 22px; display: flex; flex-direction: column; gap: 2px">
+<div class="ee-h-card ee-mentor" style="position: absolute; left: -24px; bottom: 36px; background: rgba(11,22,30,0.92); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 18px; padding: 16px 22px; display: flex; flex-direction: column; gap: 2px">
 <span class="ee-eyebrow" style="font-size: 11px; letter-spacing: 0.24em; color: #6FD8C4; font-weight: 500">SEU MENTOR</span>
 <span style="font-size: 17px; font-weight: 600">Prof. Dr. Christian Castilho</span>
 <span style="font-size: 13px; color: #9AA8B2">Endodontia</span>
