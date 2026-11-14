@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
 <style>
 body{margin:0;background:#0B161E}
+[hidden]{display:none!important}
 a{color:#4FE0BE}a:hover{color:#7FEBD0}
 html{scroll-behavior:smooth}
 .ee-btn{transition:transform .2s ease, background-color .2s ease, border-color .2s ease}
@@ -106,7 +107,7 @@ details[open] .ee-plus{transform:rotate(45deg)}
 <a href="#como-funciona" class="ee-hide-sm" style="color: #C5CED4; text-decoration: none">Como funciona</a>
 <a href="#professor" class="ee-hide-sm" style="color: #C5CED4; text-decoration: none">O professor</a>
 <a href="#duvidas" class="ee-hide-sm" style="color: #C5CED4; text-decoration: none">Dúvidas</a>
-<a class="ee-btn" href="#inscricao" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 clamp(16px, 3vw, 22px); border: 1px solid #4FE0BE; border-radius: 999px; color: #4FE0BE; text-decoration: none; font-weight: 500">Quero minha vaga</a>
+<a class="ee-btn" href="#inscricao" data-track="cta" data-local="menu" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 clamp(16px, 3vw, 22px); border: 1px solid #4FE0BE; border-radius: 999px; color: #4FE0BE; text-decoration: none; font-weight: 500">Quero minha vaga</a>
 </div>
 </nav>
 </header>
@@ -121,7 +122,7 @@ MENTORIA ONLINE EM ENDODONTIA
 <h1 class="ee-r ee-d1" style="margin: 0; font-size: clamp(40px, 5.4vw, 74px); line-height: 1.04; font-weight: 600; letter-spacing: -0.03em">A endodontia que você quer dominar, <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #4FE0BE; letter-spacing: -0.01em">sem sair do seu consultório.</span></h1>
 <p class="ee-r ee-d2" style="margin: 0; font-size: 19px; color: #B4C0C8; max-width: 560px"><span class="ee-hide-sm">Conteúdo teórico, demonstrações práticas e o planejamento dos seus próprios casos clínicos, com acompanhamento de perto do Prof. Dr. Christian Castilho. Tudo online, no seu ritmo.</span><span class="ee-show-sm">Teoria, prática e os seus casos planejados com o Prof. Dr. Christian Castilho. 100% online.</span></p>
 <div class="ee-r ee-d3" style="display: flex; flex-wrap: wrap; gap: 14px; padding-top: 6px">
-<a class="ee-btn" href="#inscricao" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 32px; border-radius: 999px; background: #3FD9B5; color: #062A26; text-decoration: none; font-weight: 600; font-size: 16px">Quero minha vaga
+<a class="ee-btn" href="#inscricao" data-track="cta" data-local="topo" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 32px; border-radius: 999px; background: #3FD9B5; color: #062A26; text-decoration: none; font-weight: 600; font-size: 16px">Quero minha vaga
 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
 <a class="ee-btn ee-hide-sm" href="#como-funciona" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 30px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); color: #F2EEE6; text-decoration: none; font-weight: 500; font-size: 16px">Ver como funciona</a>
 </div>
@@ -444,9 +445,9 @@ MENTORIA ONLINE EM ENDODONTIA
 <span style="font-size: 16px; color: #9AA8B2">De <s>R$ 4.990</s> por</span>
 <span style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1">R$ 3.990</span>
 <span style="font-size: 16px; color: #C5CED4">ou 10x de R$ 399 sem juros</span>
-<a class="ee-btn" href="#" style="display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 58px; border-radius: 999px; background: #3FD9B5; color: #062A26; text-decoration: none; font-weight: 600; font-size: 16px; margin-top: 8px">Quero minha vaga
+<a class="ee-btn" href="#inscricao" data-track="checkout" data-link="pagamento" style="display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 58px; border-radius: 999px; background: #3FD9B5; color: #062A26; text-decoration: none; font-weight: 600; font-size: 16px; margin-top: 8px">Quero minha vaga
 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
-<a class="ee-btn" href="#" style="display: flex; align-items: center; justify-content: center; min-height: 50px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F2EEE6; text-decoration: none; font-weight: 500; font-size: 15px">Falar no WhatsApp</a>
+<a class="ee-btn" href="#inscricao" data-track="whatsapp" data-local="inscricao" data-link="whatsapp" style="display: flex; align-items: center; justify-content: center; min-height: 50px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.16); color: #F2EEE6; text-decoration: none; font-weight: 500; font-size: 15px">Falar no WhatsApp</a>
 <div style="display: flex; align-items: center; gap: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 6px">
 <svg width="52" height="52" viewBox="0 0 52 52" fill="none" aria-hidden="true" style="flex: none"><circle cx="26" cy="26" r="24" stroke="#4FE0BE" stroke-width="1.2"></circle><circle cx="26" cy="26" r="19" stroke="#4FE0BE" stroke-width="0.8" stroke-dasharray="2 3"></circle><path d="M26 15l8 3v7c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10v-7z" stroke="#4FE0BE" stroke-width="1.4" stroke-linejoin="round"></path><path d="M22 25.5l3 3 5-5.5" stroke="#4FE0BE" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 <span style="display: flex; flex-direction: column; font-size: 13px; color: #9AA8B2; line-height: 1.45"><span style="color: #F2EEE6; font-weight: 600; font-size: 14px">Garantia de 7 dias</span>Não gostou? Devolvemos 100% do valor.</span>
@@ -486,9 +487,23 @@ MENTORIA ONLINE EM ENDODONTIA
 <div style="max-width: 1240px; margin: 0 auto; padding: 40px clamp(20px, 4vw, 32px); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 14px; color: #9AA8B2">
 <img src="assets/logo.png" alt="Endo Evolution" style="height: 48px; width: auto; display: block">
 <span>Mentoria online em Endodontia · Prof. Dr. Christian Castilho</span>
-<span style="display: flex; gap: 24px"><a href="#" style="display: inline-flex; align-items: center; min-height: 44px; text-decoration: none">WhatsApp</a><a href="#" style="display: inline-flex; align-items: center; min-height: 44px; text-decoration: none">Instagram</a></span>
+<span style="display: flex; gap: 24px"><a href="#inscricao" data-track="whatsapp" data-local="rodape" data-link="whatsapp" style="display: inline-flex; align-items: center; min-height: 44px; text-decoration: none">WhatsApp</a><a href="#" data-track="instagram" data-link="instagram" style="display: inline-flex; align-items: center; min-height: 44px; text-decoration: none">Instagram</a></span>
+</div>
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 32px) 28px; display: flex; flex-wrap: wrap; gap: 4px 24px; font-size: 13px; color: #84939D">
+<span style="display: inline-flex; align-items: center; min-height: 44px">© 2026 Endo Evolution</span>
+<a href="politica-de-privacidade.html" style="display: inline-flex; align-items: center; min-height: 44px; color: #9AA8B2">Política de privacidade</a>
+<button type="button" id="ee-cookies-prefs" hidden style="min-height: 44px; padding: 0; background: none; border: 0; color: #9AA8B2; font: inherit; text-decoration: underline; cursor: pointer">Preferências de cookies</button>
 </div>
 </footer>
+
+<!-- AVISO DE COOKIES (LGPD) -->
+<div id="ee-cookies" role="region" aria-label="Aviso de cookies" hidden style="position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 60; max-width: 620px; margin: 0 auto; background: #12222C; border: 1px solid rgba(255,255,255,0.12); border-radius: 18px; padding: 16px 18px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; font-size: 14px; line-height: 1.5; color: #C5CED4">
+<p style="margin: 0; flex: 1 1 280px">Usamos cookies para medir as visitas e melhorar nossos anúncios. Saiba mais na <a href="politica-de-privacidade.html" style="color: #4FE0BE">política de privacidade</a>.</p>
+<div style="display: flex; gap: 10px; flex: 0 0 auto">
+<button type="button" data-cookies="recusar" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: transparent; color: #F2EEE6; font: inherit; font-weight: 500; cursor: pointer">Recusar</button>
+<button type="button" data-cookies="aceitar" style="min-height: 44px; padding: 0 20px; border-radius: 999px; border: 0; background: #3FD9B5; color: #062A26; font: inherit; font-weight: 600; cursor: pointer">Aceitar</button>
+</div>
+</div>
 
 
 
@@ -497,6 +512,16 @@ MENTORIA ONLINE EM ENDODONTIA
 <script>
 /* ===== CONFIGURAÇÕES — edite aqui ===== */
 var TOTAL_ALUNOS = 1500; /* número final do contador */
+
+/* Links (deixe '' enquanto não tiver) */
+var LINK_PAGAMENTO = '';  /* ex.: 'https://pay.hotmart.com/XXXX' */
+var LINK_WHATSAPP  = '';  /* ex.: 'https://wa.me/5511999999999' */
+var LINK_INSTAGRAM = '';  /* ex.: 'https://instagram.com/perfil' */
+
+/* Medição (deixe '' para desligar) */
+var META_PIXEL_ID = '';   /* só números, ex.: '123456789012345' */
+var GA4_ID        = '';   /* ex.: 'G-ABC123XYZ' */
+var PRECO         = 3990; /* valor enviado nos eventos de compra */
 /* ====================================== */
 (function () {
   var root = document.getElementById('ee-root');
@@ -575,6 +600,114 @@ var TOTAL_ALUNOS = 1500; /* número final do contador */
       unmute.style.display = 'none';
     });
   }
+})();
+
+/* ===== Links, aviso de cookies e medição (Meta Pixel + Google Analytics) ===== */
+(function () {
+  var d = document, w = window;
+  var LINKS = { pagamento: LINK_PAGAMENTO, whatsapp: LINK_WHATSAPP, instagram: LINK_INSTAGRAM };
+  d.querySelectorAll('[data-link]').forEach(function (a) {
+    var url = LINKS[a.getAttribute('data-link')];
+    if (url) { a.href = url; a.target = '_blank'; a.rel = 'noopener'; }
+  });
+
+  var PIXEL = String(META_PIXEL_ID || '').trim(), GA = String(GA4_ID || '').trim();
+  if (!PIXEL && !GA) return;               /* nada configurado: sem aviso, sem cookies */
+
+  var KEY = 'ee-consent', loaded = false;
+  var banner = d.getElementById('ee-cookies'), prefs = d.getElementById('ee-cookies-prefs');
+  function getChoice() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function setChoice(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  prefs.hidden = false;
+
+  function load() {
+    if (loaded) return; loaded = true;
+    if (GA) {
+      var g = d.createElement('script'); g.async = true;
+      g.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA);
+      d.head.appendChild(g);
+      w.dataLayer = w.dataLayer || [];
+      w.gtag = function () { w.dataLayer.push(arguments); };
+      w.gtag('js', new Date());
+      w.gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted' });
+      w.gtag('config', GA);
+    }
+    if (PIXEL) {
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = [];
+        t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+      }(w, d, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      w.fbq('init', PIXEL);
+      w.fbq('track', 'PageView');
+    }
+  }
+
+  function decide(v) {
+    var before = getChoice();
+    setChoice(v); banner.hidden = true;
+    if (v === 'aceitar') load();
+    else if (before === 'aceitar') location.reload();   /* revogou: recarrega sem as ferramentas */
+  }
+  banner.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-cookies]'); if (b) decide(b.getAttribute('data-cookies'));
+  });
+  prefs.addEventListener('click', function () { banner.hidden = false; });
+
+  var choice = getChoice();
+  if (choice === 'aceitar') load(); else if (!choice) banner.hidden = false;
+
+  /* ---- eventos ---- */
+  var ITEM = { item_id: 'mentoria-endo-evolution', item_name: 'Mentoria Endo Evolution', price: PRECO, quantity: 1 };
+  function ga(name, params) { if (loaded && GA && w.gtag) w.gtag('event', name, params || {}); }
+  function meta(name, params, custom) { if (loaded && PIXEL && w.fbq) w.fbq(custom ? 'trackCustom' : 'track', name, params || {}); }
+
+  d.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-track]'); if (!a) return;
+    var kind = a.getAttribute('data-track'), local = a.getAttribute('data-local') || '';
+    if (kind === 'checkout') {
+      ga('begin_checkout', { currency: 'BRL', value: PRECO, items: [ITEM] });
+      meta('InitiateCheckout', { currency: 'BRL', value: PRECO, content_name: ITEM.item_name });
+    } else if (kind === 'cta') {
+      ga('clique_quero_vaga', { local: local });
+      meta('CliqueQueroVaga', { local: local }, true);
+    } else if (kind === 'whatsapp') {
+      ga('contato_whatsapp', { local: local });
+      meta('Contact', { content_name: 'WhatsApp ' + local });
+    } else if (kind === 'instagram') {
+      ga('clique_instagram', {});
+      meta('CliqueInstagram', {}, true);
+    }
+  });
+
+  var unmute = d.getElementById('ee-unmute');
+  if (unmute) unmute.addEventListener('click', function () {
+    ga('assistiu_video', { video_title: 'Apresentação Endo Evolution' });
+    meta('AssistiuVideo', {}, true);
+  });
+
+  /* viu o preço */
+  var price = d.getElementById('inscricao'), seen = false;
+  if (price && 'IntersectionObserver' in w) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (en) {
+        if (en.isIntersecting && loaded && !seen) {
+          seen = true; io.disconnect();
+          ga('view_item', { currency: 'BRL', value: PRECO, items: [ITEM] });
+          meta('ViewContent', { currency: 'BRL', value: PRECO, content_name: ITEM.item_name });
+        }
+      });
+    }, { threshold: 0.4 });
+    io.observe(price);
+  }
+
+  /* quanto da página foi lido */
+  var marks = [25, 50, 75, 100], sent = {};
+  w.addEventListener('scroll', function () {
+    if (!loaded) return;
+    var h = d.documentElement, pct = (h.scrollTop + w.innerHeight) / h.scrollHeight * 100;
+    marks.forEach(function (m) { if (pct >= m - 1 && !sent[m]) { sent[m] = 1; ga('rolagem', { percentual: m }); } });
+  }, { passive: true });
 })();
 </script>
 </body>

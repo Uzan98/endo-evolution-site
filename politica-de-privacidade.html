@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidade — Endo Evolution</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B161E">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&amp;display=swap">
+<style>
+body{margin:0;background:#0B161E;color:#D6DDE1;font-family:'Sora',system-ui,sans-serif;font-weight:300;line-height:1.7}
+a{color:#4FE0BE}
+main{max-width:760px;margin:0 auto;padding:clamp(32px,6vw,64px) clamp(20px,4vw,32px) 80px}
+header{border-bottom:1px solid rgba(255,255,255,.07)}
+header div{max-width:760px;margin:0 auto;padding:16px clamp(20px,4vw,32px);display:flex;justify-content:space-between;align-items:center;gap:16px}
+header a.back{font-size:14px;color:#C5CED4;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+h1{font-size:clamp(30px,5vw,44px);line-height:1.1;font-weight:600;letter-spacing:-.02em;color:#F2EEE6;margin:0 0 8px}
+h2{font-size:20px;font-weight:600;color:#F2EEE6;margin:40px 0 8px}
+p,li{font-size:16px;color:#B4C0C8}
+ul{padding-left:20px}
+.meta{font-size:14px;color:#84939D;margin:0 0 32px}
+button{min-height:44px;padding:0 20px;border-radius:999px;border:1px solid #4FE0BE;background:transparent;color:#4FE0BE;font:inherit;font-weight:500;cursor:pointer}
+</style>
+</head>
+<body>
+<header><div>
+<a href="index.html" aria-label="Endo Evolution, voltar ao site"><img src="assets/logo.png" alt="Endo Evolution" style="height:40px;width:auto;display:block"></a>
+<a class="back" href="index.html">Voltar ao site</a>
+</div></header>
+<main>
+<h1>Política de privacidade</h1>
+<p class="meta">Última atualização: 13 de novembro de 2026</p>
+
+<p>Esta política explica quais dados o site da Endo Evolution coleta, para que eles são usados e como você pode controlá-los, de acordo com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).</p>
+
+<h2>Quem é o responsável</h2>
+<p>Endo Evolution, mentoria online em endodontia do Prof. Dr. Christian Castilho. Contato para assuntos de privacidade: [E-MAIL DE CONTATO].</p>
+
+<h2>Quais dados coletamos</h2>
+<p>O site não tem formulários nem pede seus dados pessoais. Se você aceitar os cookies, coletamos automaticamente dados de navegação, como:</p>
+<ul>
+<li>páginas e seções visitadas, tempo de visita e até onde a página foi lida;</li>
+<li>cliques nos botões de inscrição, WhatsApp e Instagram;</li>
+<li>tipo de aparelho e navegador, cidade aproximada e de onde você chegou ao site (por exemplo, um anúncio do Instagram).</li>
+</ul>
+<p>Se você recusar os cookies, nenhum desses dados é coletado.</p>
+
+<h2>Para que usamos</h2>
+<ul>
+<li>Entender quantas pessoas visitam o site e o que funciona melhor na página.</li>
+<li>Medir o resultado dos nossos anúncios e mostrá-los para quem já demonstrou interesse na mentoria.</li>
+</ul>
+<p>A base legal é o seu consentimento, dado no aviso de cookies.</p>
+
+<h2>Com quem compartilhamos</h2>
+<p>Usamos duas ferramentas de terceiros, que recebem esses dados para prestar o serviço:</p>
+<ul>
+<li><strong>Google Analytics</strong>, do Google, para estatísticas de visitas. <a href="https://policies.google.com/privacy?hl=pt-BR" rel="noopener" target="_blank">Política de privacidade do Google</a>.</li>
+<li><strong>Meta Pixel</strong>, da Meta (Facebook e Instagram), para medir e direcionar anúncios. <a href="https://www.facebook.com/privacy/policy/" rel="noopener" target="_blank">Política de privacidade da Meta</a>.</li>
+</ul>
+<p>Essas empresas podem tratar os dados fora do Brasil, conforme as políticas delas. Ao clicar em "Quero minha vaga", você é levado à plataforma de pagamento, que tem a sua própria política de privacidade.</p>
+
+<h2>Por quanto tempo guardamos</h2>
+<p>Os cookies do Google Analytics duram até 2 anos e os da Meta até 90 dias. Os relatórios do Google Analytics guardam os dados por até 14 meses.</p>
+
+<h2>Seus direitos</h2>
+<p>Você pode, a qualquer momento, pedir acesso, correção ou exclusão dos seus dados, e revogar o consentimento. Para revogar, use o botão abaixo ou o link "Preferências de cookies" no rodapé do site. Para os demais pedidos, escreva para o contato indicado acima.</p>
+<p><button type="button" id="revogar">Revogar consentimento de cookies</button> <span id="ok" role="status" style="font-size:14px;color:#84939D"></span></p>
+</main>
+<script>
+document.getElementById('revogar').addEventListener('click', function () {
+  try { localStorage.setItem('ee-consent', 'recusar'); } catch (e) {}
+  document.getElementById('ok').textContent = 'Pronto: as ferramentas de medição não serão mais carregadas.';
+});
+</script>
+</body>
+</html>
