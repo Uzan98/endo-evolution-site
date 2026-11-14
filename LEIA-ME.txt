@@ -1,38 +1,93 @@
 ENDO EVOLUTION — SITE
 =====================
 
-COMO PUBLICAR
-Suba a pasta inteira (index.html + pasta "assets") para a sua hospedagem,
-mantendo a mesma estrutura. Funciona em qualquer serviço de site estático:
-Hostinger, HostGator, Netlify, Vercel, GitHub Pages etc.
-O arquivo principal é o index.html.
+PUBLICAÇÃO
+O site é o index.html + politica-de-privacidade.html + a pasta "assets".
+Toda alteração enviada ao GitHub (branch main) vai para o ar sozinha pelo
+Cloudflare Pages, em um ou dois minutos.
 
-ANTES DE PUBLICAR, EDITE NO index.html
-(abra num editor de texto e use "Localizar")
 
-1. Links dos botões — procure por  href="#"  (4 ocorrências):
-   - "Quero minha vaga" do quadro de inscrição → link da página de pagamento
-   - "Falar no WhatsApp" (quadro de inscrição) e "WhatsApp" (rodapé) → https://wa.me/55DDDNUMERO
-   - "Instagram" no rodapé → link do seu perfil
+1. CONFIGURAÇÕES (fim do index.html, bloco "CONFIGURAÇÕES — edite aqui")
+------------------------------------------------------------------------
+  LINK_PAGAMENTO  → link da página de pagamento (botão "Quero minha vaga" do preço)
+  LINK_WHATSAPP   → ex.: https://wa.me/5511999999999  (55 + DDD + número, só dígitos)
+  LINK_INSTAGRAM  → ex.: https://instagram.com/perfil
+  META_PIXEL_ID   → ID do Pixel da Meta (só números)
+  GA4_ID          → ID de medição do Google Analytics (começa com G-)
+  PRECO           → 3990 (valor enviado nos eventos de compra)
 
-2. Preço — procure por "R$ 3.990" no index.html. O valor cheio (R$ 4.990),
-   o parcelamento e o selo de desconto ficam logo ao lado.
+Campo vazio = desligado. Com META_PIXEL_ID e GA4_ID vazios, o site não usa
+cookies e o aviso de cookies não aparece.
 
-3. Endereço do site — procure por  SEU-DOMINIO  (2 ocorrências)
-   e troque pelo seu domínio. Isso faz a prévia do link aparecer no WhatsApp.
+O preço exibido na página (R$ 3.990, de R$ 4.990, 10x de R$ 399) fica no
+próprio index.html: procure por "R$ 3.990".
 
-4. Textos entre colchetes [ ] — mini-bio, anos de experiência, valor,
-   parcelamento, turma, vagas, garantia, duração, perfil do aluno,
-   depoimentos e legenda do caso clínico.
 
-5. Radiografias — a comparação "inicial x final" ainda mostra um desenho
-   de exemplo. Quando tiver as imagens, me envie que eu substituo.
+2. COMO PEGAR O ID DO PIXEL DA META
+-----------------------------------
+ 1. Entre no Gerenciador de Eventos da Meta (business.facebook.com) com a
+    conta do cliente.
+ 2. Conectar fontes de dados → Web → dê o nome "Endo Evolution".
+ 3. Escolha instalar o código manualmente e copie só o número do Pixel.
+    Não precisa colar o código: o site já tem.
+ 4. Cole em META_PIXEL_ID.
+
+
+3. COMO PEGAR O ID DO GOOGLE ANALYTICS
+--------------------------------------
+ 1. Entre em analytics.google.com com a conta Google do cliente.
+ 2. Administrador → Criar → Propriedade → "Endo Evolution",
+    fuso de Brasília, moeda Real.
+ 3. Crie um fluxo de dados Web com o endereço do site.
+ 4. Copie o "ID da métrica" (G-XXXXXXXXXX) e cole em GA4_ID.
+ 5. Depois dos primeiros acessos, em Administrador → Eventos, marque como
+    "evento principal": begin_checkout e contato_whatsapp.
+
+
+4. O QUE É MEDIDO
+-----------------
+ Situação                              Google Analytics      Meta Pixel
+ Abriu o site                          page_view             PageView
+ "Quero minha vaga" (menu ou topo)     clique_quero_vaga     CliqueQueroVaga
+ Viu a seção de preço                  view_item             ViewContent
+ "Quero minha vaga" no quadro de preço begin_checkout        InitiateCheckout
+ Clicou no WhatsApp                    contato_whatsapp      Contact
+ Clicou no Instagram                   clique_instagram      CliqueInstagram
+ Ligou o som do vídeo                  assistiu_video        AssistiuVideo
+ Leu 25/50/75/100% da página           rolagem               —
+
+A compra em si acontece na plataforma de pagamento. Para medir as vendas
+(evento Purchase), configure o mesmo Pixel e o mesmo Analytics também lá:
+Hotmart, Kiwify e similares têm campos próprios para esses IDs.
+
+
+5. COOKIES E LGPD
+-----------------
+ - As ferramentas só carregam depois que o visitante clica em "Aceitar".
+ - "Recusar" = nada é carregado. O visitante pode mudar de ideia pelo link
+   "Preferências de cookies" no rodapé ou na política de privacidade.
+ - Em politica-de-privacidade.html, troque [E-MAIL DE CONTATO] por um
+   e-mail real.
+
+
+6. COMO TESTAR
+--------------
+ - Meta: extensão "Meta Pixel Helper" no Chrome, ou Gerenciador de Eventos →
+   Testar eventos.
+ - Google: Analytics → Relatórios → Tempo real.
+ - Abra o site, clique em "Aceitar" e depois nos botões.
+
+
+7. PRÉVIA DO LINK NO WHATSAPP
+-----------------------------
+No topo do index.html, troque SEU-DOMINIO (2 ocorrências) pelo endereço real.
+
 
 ARQUIVOS DA PASTA assets
-- apresentacao.mp4 ... vídeo da seção "O Método" (versão otimizada, 6 MB)
 - christian.jpg ...... foto do professor (topo do site)
+- apresentacao.mp4 ... vídeo da seção "O Método" (versão otimizada, 6 MB)
+- reel-poster.jpg .... capa do vídeo
 - logo.png ........... logo para fundo escuro
 - icone.png / favicon-32.png ... ícone da aba do navegador e do celular
 - compartilhar.jpg ... imagem que aparece ao compartilhar o link
-- reel-poster.jpg .... capa do vídeo
 - grain.png .......... textura de fundo
