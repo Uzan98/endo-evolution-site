@@ -61,6 +61,12 @@ A compra em si acontece na plataforma de pagamento. Para medir as vendas
 Hotmart, Kiwify e similares têm campos próprios para esses IDs.
 
 
+ANTES DE LANÇAR: DEPOIMENTOS
+ - A seção "O que os dentistas estão dizendo" tem textos de EXEMPLO,
+   marcados com o selo "Exemplos ilustrativos". Antes de divulgar o site,
+   troque por depoimentos reais de ex-alunos (com autorização) e só então
+   remova o selo.
+
 5. COOKIES E LGPD
 -----------------
  - As ferramentas só carregam depois que o visitante clica em "Aceitar".
