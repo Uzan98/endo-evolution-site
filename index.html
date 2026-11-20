@@ -118,7 +118,27 @@ details[open] .ee-plus{transform:rotate(45deg)}
 </style>
 </head>
 <body>
-<script>document.documentElement.classList.add('ee-anim');</script>
+<script>document.documentElement.classList.add('ee-anim');
+/* Sempre abrir no topo: o celular não restaura a rolagem antiga nem pula para um #link salvo na URL */
+(function(){
+  try { if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; } catch (e) {}
+  var top = function(){ var h = document.documentElement, b = h.style.scrollBehavior; h.style.scrollBehavior = 'auto'; window.scrollTo(0, 0); h.style.scrollBehavior = b; };
+  if (location.hash) { try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {} }
+  top();
+  document.addEventListener('DOMContentLoaded', top);
+  window.addEventListener('pageshow', function(ev){ if (!ev.persisted) top(); });
+  /* Links internos rolam suavemente sem gravar #seção na URL */
+  document.addEventListener('click', function(ev){
+    var a = ev.target.closest && ev.target.closest('a[href^="#"]');
+    if (!a || ev.defaultPrevented) return;
+    var id = a.getAttribute('href').slice(1);
+    var el = id ? document.getElementById(id) : null;
+    if (id && !el && id !== 'topo') return;
+    ev.preventDefault();
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); else window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
 
 <div id="ee-root" class="ee-grain" style="background: #0B161E; color: #F2EEE6; font-family: 'Sora', system-ui, sans-serif; font-weight: 300; line-height: 1.6; overflow-x: clip">
 
