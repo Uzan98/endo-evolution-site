@@ -13,7 +13,7 @@ Cloudflare Pages, em um ou dois minutos.
   LINK_WHATSAPP   → já configurado: wa.me/5512996007695 + mensagem pronta.
                     Para trocar a mensagem, edite o texto depois de "?text=" (codificado)
                     ou me peça.
-  LINK_INSTAGRAM  → ex.: https://instagram.com/perfil
+  LINK_INSTAGRAM  → já configurado: instagram.com/christian.endoacademy
   META_PIXEL_ID   → ID do Pixel da Meta (só números)
   GA4_ID          → ID de medição do Google Analytics (começa com G-)
   PRECO           → 3990 (valor enviado nos eventos de compra)
