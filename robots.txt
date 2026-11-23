@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://endoevolution.com.br/sitemap.xml
