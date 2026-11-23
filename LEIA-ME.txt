@@ -86,7 +86,7 @@ ANTES DE LANÇAR: DEPOIMENTOS
 
 7. PRÉVIA DO LINK NO WHATSAPP
 -----------------------------
-No topo do index.html, troque SEU-DOMINIO (2 ocorrências) pelo endereço real.
+Domínio oficial: endoevolution.com.br (já configurado nas tags de prévia e no link canônico do index.html).
 
 
 ARQUIVOS DA PASTA assets

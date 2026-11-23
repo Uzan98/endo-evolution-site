@@ -1,0 +1,3030 @@
+{
+ "url": "index.html",
+ "at": "2026-11-12T22:51:16.709Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.51,
+    0.43,
+    1,
+    1,
+    0.99,
+    0.99,
+    0.99,
+    1,
+    0.36,
+    0.47,
+    0.73,
+    1
+   ],
+   "motion": {
+    "elements": 43,
+    "css": 0,
+    "transitions": 43,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 10434,
+     "screens": 11.6,
+     "words": 594,
+     "img": 6,
+     "video": 1,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "christian-mesa.jpg",
+      "christian-retrato.jpg",
+      "christian-lupas.jpg",
+      "christian-notebook.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Endodontia sem parar a agenda.",
+     "words": 5,
+     "chars": 30,
+     "lines": 2,
+     "size": 132.5,
+     "vw": 9.2,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.94,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.63,
+     "top": 126,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Endodontia sem parar a agenda.",
+     "words": 5,
+     "lines": 2,
+     "size": 132.5,
+     "font": "Instrument Serif"
+    },
+    "headings": [
+     {
+      "text": "Endodontia sem parar a agenda.",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 132.5,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.94,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 126,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Zero",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.16,
+      "top": 492,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "Uma mentoria, não um curso gravado.",
+      "words": 6,
+      "chars": 35,
+      "lines": 1,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 1058,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem ensina já formou muita gente.",
+      "words": 6,
+      "chars": 34,
+      "lines": 1,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 1582,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1.500+",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 1713,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "100%",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 2153,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "R$ 9.700",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 132.5,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 2723,
+      "tag": "output",
+      "kind": "heading"
+     },
+     {
+      "text": "A conta de estudar fora",
+      "words": 5,
+      "chars": 23,
+      "lines": 2,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2723,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O método em um minuto.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 3525,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Você vê cada passo.",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 4425,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "E planeja os seus casos.",
+      "words": 5,
+      "chars": 24,
+      "lines": 2,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 5325,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Primeiro, você garante a vaga.",
+      "words": 5,
+      "chars": 30,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 6339,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Depois, assiste às aulas.",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.79,
+      "top": 6531,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Então, traz os seus casos.",
+      "words": 5,
+      "chars": 26,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 6724,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "E atende com confiança.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 6917,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem vai acompanhar você",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.63,
+      "top": 7370,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O que está incluso",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 7866,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de começar",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 132.5,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 8776,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 18,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      19,
+      26,
+      68,
+      133
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.9
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 132.5,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "text": "Endodontia sem"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b161e",
+     "bodyBgHsl": {
+      "h": 205,
+      "s": 0.46,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0d3b3d",
+       "top": 2565,
+       "hsl": {
+        "h": 183,
+        "s": 0.65,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#0c1318",
+       "top": 3480,
+       "hsl": {
+        "h": 205,
+        "s": 0.33,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#171c26",
+       "top": 4380,
+       "hsl": {
+        "h": 220,
+        "s": 0.25,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#262e37",
+       "top": 5280,
+       "hsl": {
+        "h": 212,
+        "s": 0.18,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#e9edea",
+       "top": 6180,
+       "hsl": {
+        "h": 135,
+        "s": 0.1,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#3fd9b5",
+       "top": 8589,
+       "hsl": {
+        "h": 166,
+        "s": 0.67,
+        "l": 0.55
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#edf1ef",
+       "share": 0.57
+      },
+      {
+       "color": "#a9b7bf",
+       "share": 0.18
+      },
+      {
+       "color": "#45565f",
+       "share": 0.12
+      },
+      {
+       "color": "#0a1e2b",
+       "share": 0.06
+      },
+      {
+       "color": "#06261f",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#3fd9b5",
+      "hsl": {
+       "h": 166,
+       "s": 0.67,
+       "l": 0.55
+      },
+      "fg": "#06261f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Quero minha vaga"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "instrument serif",
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 10434,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header#topo.hero.grid",
+      "tag": "header",
+      "top": 0,
+      "height": 900,
+      "words": 47,
+      "media": 1,
+      "middle": 215,
+      "heading": {
+       "text": "Endodontia sem",
+       "size": 132,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 244,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#mentoria.intro.grid",
+      "tag": "section",
+      "top": 900,
+      "height": 682,
+      "words": 111,
+      "media": 0,
+      "middle": 25,
+      "heading": {
+       "text": "Uma mentoria, não um curso gravado.",
+       "size": 68,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 36,
+      "textLeft": 32,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#numeros",
+      "tag": "section",
+      "top": 1582,
+      "height": 983,
+      "words": 27,
+      "media": 1,
+      "middle": 28,
+      "heading": {
+       "text": "1.500",
+       "size": 68,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 217,
+      "textLeft": 988,
+      "textRight": 217,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#conta.calc.grid",
+      "tag": "section",
+      "top": 2565,
+      "height": 916,
+      "words": 52,
+      "media": 0,
+      "middle": 206,
+      "heading": {
+       "text": "R$ 9.700",
+       "size": 132,
+       "tag": "output"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 3480,
+      "height": 900,
+      "words": 24,
+      "media": 1,
+      "middle": 313,
+      "heading": {
+       "text": "O método em um minuto.",
+       "size": 68,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 4380,
+      "height": 900,
+      "words": 21,
+      "media": 1,
+      "middle": 215,
+      "heading": {
+       "text": "Você vê cada passo.",
+       "size": 68,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 5280,
+      "height": 900,
+      "words": 24,
+      "media": 1,
+      "middle": 323,
+      "heading": {
+       "text": "E planeja os seus casos.",
+       "size": 68,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#como-funciona.steps.on-paper",
+      "tag": "section",
+      "top": 6180,
+      "height": 1032,
+      "words": 65,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Primeiro, você garante a vaga.",
+       "size": 68,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 183,
+      "textLeft": 32,
+      "textRight": 183,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#professor.about.grid",
+      "tag": "section",
+      "top": 7212,
+      "height": 654,
+      "words": 61,
+      "media": 0,
+      "middle": 334,
+      "heading": {
+       "text": "Quem vai acompanhar você",
+       "size": 68,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 138,
+      "textLeft": 32,
+      "textRight": 138,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#inscricao.enroll.grid",
+      "tag": "section",
+      "top": 7866,
+      "height": 723,
+      "words": 37,
+      "media": 0,
+      "middle": 104,
+      "heading": {
+       "text": "O que está incluso",
+       "size": 68,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 91,
+      "textLeft": 32,
+      "textRight": 91,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#duvidas",
+      "tag": "section",
+      "top": 8589,
+      "height": 1107,
+      "words": 100,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Antes de começar",
+       "size": 132,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 241,
+      "textLeft": 32,
+      "textRight": 241,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-paper",
+      "tag": "footer",
+      "top": 9696,
+      "height": 738,
+      "words": 31,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 297,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 7052,
+      "height": 304
+     },
+     {
+      "top": 8416,
+      "height": 332
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Endodontia sem parar a agenda.",
+      "size": 132,
+      "top": 126,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 16
+     },
+     {
+      "x": 499,
+      "n": 7
+     },
+     {
+      "x": 732,
+      "n": 5
+     },
+     {
+      "x": 382,
+      "n": 1
+     },
+     {
+      "x": 614,
+      "n": 1
+     },
+     {
+      "x": 1082,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 0,
+     "y": 600,
+     "w": 480,
+     "h": 300
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.78,
+    0.65,
+    1,
+    0.89,
+    0.92,
+    0.85,
+    0.91,
+    0.84,
+    0.51,
+    0.66,
+    0.94
+   ],
+   "motion": {
+    "elements": 43,
+    "css": 0,
+    "transitions": 43,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 10818,
+     "screens": 10.6,
+     "words": 579,
+     "img": 6,
+     "video": 1,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "christian-mesa.jpg",
+      "christian-retrato.jpg",
+      "christian-lupas.jpg",
+      "christian-notebook.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Endodontia sem parar a agenda.",
+     "words": 5,
+     "chars": 30,
+     "lines": 2,
+     "size": 112.1,
+     "vw": 14.6,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.94,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 98,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Endodontia sem parar a agenda.",
+     "words": 5,
+     "lines": 2,
+     "size": 112.1,
+     "font": "Instrument Serif"
+    },
+    "headings": [
+     {
+      "text": "Endodontia sem parar a agenda.",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 112.1,
+      "vw": 14.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.94,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 98,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Zero",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 575,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "Uma mentoria, não um curso gravado.",
+      "words": 6,
+      "chars": 35,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1225,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem ensina já formou muita gente.",
+      "words": 6,
+      "chars": 34,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1815,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1.500+",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2491,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "100%",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 2491,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "A conta de estudar fora",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2945,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "R$ 9.700",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 130.6,
+      "vw": 17,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3027,
+      "tag": "output",
+      "kind": "heading"
+     },
+     {
+      "text": "O método em um minuto.",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3950,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Você vê cada passo.",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 5263,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "E planeja os seus casos.",
+      "words": 5,
+      "chars": 24,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 6220,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Primeiro, você garante a vaga.",
+      "words": 5,
+      "chars": 30,
+      "lines": 1,
+      "size": 64.5,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 7265,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Depois, assiste às aulas.",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 64.5,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 7434,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Então, traz os seus casos.",
+      "words": 5,
+      "chars": 26,
+      "lines": 1,
+      "size": 64.5,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 7602,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "E atende com confiança.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 64.5,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.77,
+      "top": 7771,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem vai acompanhar você",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 8080,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O que está incluso",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 46.9,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 8538,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de começar",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 103.7,
+      "vw": 13.5,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 9378,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 18,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      23,
+      47,
+      65,
+      104,
+      112,
+      131
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.9
+     },
+     "measureChars": 63,
+     "max": {
+      "size": 130.6,
+      "vw": 17,
+      "font": "Instrument Serif",
+      "text": "R$ 9.700"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b161e",
+     "bodyBgHsl": {
+      "h": 205,
+      "s": 0.46,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0d3b3d",
+       "top": 2857,
+       "hsl": {
+        "h": 183,
+        "s": 0.65,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#0c1318",
+       "top": 3922,
+       "hsl": {
+        "h": 205,
+        "s": 0.33,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#171c26",
+       "top": 5235,
+       "hsl": {
+        "h": 220,
+        "s": 0.25,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#262e37",
+       "top": 6192,
+       "hsl": {
+        "h": 212,
+        "s": 0.18,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#e9edea",
+       "top": 7177,
+       "hsl": {
+        "h": 135,
+        "s": 0.1,
+        "l": 0.92
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#edf1ef",
+       "share": 0.57
+      },
+      {
+       "color": "#a9b7bf",
+       "share": 0.18
+      },
+      {
+       "color": "#45565f",
+       "share": 0.13
+      },
+      {
+       "color": "#0a1e2b",
+       "share": 0.06
+      },
+      {
+       "color": "#06261f",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#3fd9b5",
+      "hsl": {
+       "h": 166,
+       "s": 0.67,
+       "l": 0.55
+      },
+      "fg": "#06261f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Quero minha vaga"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.45
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 1137,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "instrument serif",
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 10818,
+    "margins": {
+     "left": 18,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header#topo.hero.grid",
+      "tag": "header",
+      "top": 0,
+      "height": 1137,
+      "words": 39,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Endodontia sem",
+       "size": 112,
+       "tag": "h1"
+      },
+      "left": 18,
+      "right": 23,
+      "textLeft": 18,
+      "textRight": 23,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#mentoria.intro.grid",
+      "tag": "section",
+      "top": 1137,
+      "height": 679,
+      "words": 111,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Uma mentoria, não um curso gravado.",
+       "size": 47,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 23,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#numeros",
+      "tag": "section",
+      "top": 1815,
+      "height": 1042,
+      "words": 27,
+      "media": 1,
+      "middle": 206,
+      "heading": null,
+      "left": 18,
+      "right": 197,
+      "textLeft": 18,
+      "textRight": 197,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#conta.calc.grid",
+      "tag": "section",
+      "top": 2857,
+      "height": 1065,
+      "words": 52,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "R$ 9.700",
+       "size": 131,
+       "tag": "output"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 297,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 3922,
+      "height": 1313,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "O método em um minuto.",
+       "size": 47,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 28,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 5235,
+      "height": 957,
+      "words": 16,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Você vê cada passo.",
+       "size": 47,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 32,
+      "textLeft": 20,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 6192,
+      "height": 984,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "E planeja os seus casos.",
+       "size": 47,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#como-funciona.steps.on-paper",
+      "tag": "section",
+      "top": 7177,
+      "height": 815,
+      "words": 65,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Primeiro, você garante a vaga.",
+       "size": 65,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 109,
+      "textLeft": 20,
+      "textRight": 109,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#professor.about.grid",
+      "tag": "section",
+      "top": 7992,
+      "height": 546,
+      "words": 61,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quem vai acompanhar você",
+       "size": 47,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 38,
+      "textLeft": 20,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#inscricao.enroll.grid",
+      "tag": "section",
+      "top": 8538,
+      "height": 683,
+      "words": 33,
+      "media": 0,
+      "middle": 7,
+      "heading": null,
+      "left": 38,
+      "right": 72,
+      "textLeft": 38,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#duvidas",
+      "tag": "section",
+      "top": 9221,
+      "height": 1002,
+      "words": 100,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Antes de começar",
+       "size": 104,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 190,
+      "textLeft": 20,
+      "textRight": 190,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-paper",
+      "tag": "footer",
+      "top": 10223,
+      "height": 596,
+      "words": 31,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 204,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2608,
+      "height": 328
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Endodontia sem parar a agenda.",
+      "size": 112,
+      "top": 98,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 30
+     },
+     {
+      "x": 152,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.69,
+    0.51,
+    1,
+    0.92,
+    0.88,
+    0.87,
+    0.87,
+    0.52,
+    0.57,
+    0.85,
+    0.88
+   ],
+   "motion": {
+    "elements": 38,
+    "css": 0,
+    "transitions": 38,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 8809,
+     "screens": 10.4,
+     "words": 579,
+     "img": 6,
+     "video": 1,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "christian-mesa.jpg",
+      "christian-retrato.jpg",
+      "christian-lupas.jpg",
+      "christian-notebook.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Endodontia sem parar a agenda.",
+     "words": 5,
+     "chars": 30,
+     "lines": 2,
+     "size": 56.9,
+     "vw": 14.6,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.94,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 98,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Endodontia sem parar a agenda.",
+     "words": 5,
+     "lines": 2,
+     "size": 56.9,
+     "font": "Instrument Serif"
+    },
+    "headings": [
+     {
+      "text": "Endodontia sem parar a agenda.",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 56.9,
+      "vw": 14.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.94,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 98,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Zero",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 517,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "Uma mentoria, não um curso gravado.",
+      "words": 6,
+      "chars": 35,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 883,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem ensina já formou muita gente.",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1605,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "1.500+",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2022,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "100%",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 2022,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "A conta de estudar fora",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2287,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "R$ 9.700",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 66.3,
+      "vw": 17,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2359,
+      "tag": "output",
+      "kind": "heading"
+     },
+     {
+      "text": "O método em um minuto.",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3200,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Você vê cada passo.",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3987,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "E planeja os seus casos.",
+      "words": 5,
+      "chars": 24,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4555,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Primeiro, você garante a vaga.",
+      "words": 5,
+      "chars": 30,
+      "lines": 1,
+      "size": 32.8,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5208,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Depois, assiste às aulas.",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 32.8,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 5341,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Então, traz os seus casos.",
+      "words": 5,
+      "chars": 26,
+      "lines": 1,
+      "size": 32.8,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 5474,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "E atende com confiança.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 32.8,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 5607,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem vai acompanhar você",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5880,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O que está incluso",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6435,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de começar",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 52.7,
+      "vw": 13.5,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7389,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 18,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      20,
+      33,
+      36,
+      53,
+      57,
+      66
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.9
+     },
+     "measureChars": 34,
+     "max": {
+      "size": 66.3,
+      "vw": 17,
+      "font": "Instrument Serif",
+      "text": "R$ 9.700"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b161e",
+     "bodyBgHsl": {
+      "h": 205,
+      "s": 0.46,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0d3b3d",
+       "top": 2199,
+       "hsl": {
+        "h": 183,
+        "s": 0.65,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#0c1318",
+       "top": 3172,
+       "hsl": {
+        "h": 205,
+        "s": 0.33,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#171c26",
+       "top": 3959,
+       "hsl": {
+        "h": 220,
+        "s": 0.25,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#262e37",
+       "top": 4527,
+       "hsl": {
+        "h": 212,
+        "s": 0.18,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#e9edea",
+       "top": 5120,
+       "hsl": {
+        "h": 135,
+        "s": 0.1,
+        "l": 0.92
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#edf1ef",
+       "share": 0.57
+      },
+      {
+       "color": "#a9b7bf",
+       "share": 0.18
+      },
+      {
+       "color": "#45565f",
+       "share": 0.13
+      },
+      {
+       "color": "#0a1e2b",
+       "share": 0.06
+      },
+      {
+       "color": "#06261f",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#3fd9b5",
+      "hsl": {
+       "h": 166,
+       "s": 0.67,
+       "l": 0.55
+      },
+      "fg": "#06261f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Quero minha vaga"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 795,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "instrument serif",
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 8809,
+    "margins": {
+     "left": 18,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header#topo.hero.grid",
+      "tag": "header",
+      "top": 0,
+      "height": 795,
+      "words": 39,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Endodontia sem",
+       "size": 57,
+       "tag": "h1"
+      },
+      "left": 18,
+      "right": 25,
+      "textLeft": 18,
+      "textRight": 25,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#mentoria.intro.grid",
+      "tag": "section",
+      "top": 795,
+      "height": 810,
+      "words": 111,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Uma mentoria, não um curso gravado.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 28,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#numeros",
+      "tag": "section",
+      "top": 1605,
+      "height": 594,
+      "words": 27,
+      "media": 1,
+      "middle": 52,
+      "heading": {
+       "text": "1.500",
+       "size": 36,
+       "tag": "span"
+      },
+      "left": 18,
+      "right": 57,
+      "textLeft": 18,
+      "textRight": 57,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#conta.calc.grid",
+      "tag": "section",
+      "top": 2199,
+      "height": 972,
+      "words": 52,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "R$ 9.700",
+       "size": 66,
+       "tag": "output"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 3172,
+      "height": 788,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "O método em um minuto.",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 45,
+      "textLeft": 20,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 3959,
+      "height": 568,
+      "words": 16,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Você vê cada passo.",
+       "size": 36,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 30,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.chapter.in",
+      "tag": "article",
+      "top": 4527,
+      "height": 593,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "E planeja os seus casos.",
+       "size": 36,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 24,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#como-funciona.steps.on-paper",
+      "tag": "section",
+      "top": 5120,
+      "height": 672,
+      "words": 65,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Primeiro, você garante a vaga.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#professor.about.grid",
+      "tag": "section",
+      "top": 5792,
+      "height": 642,
+      "words": 61,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quem vai acompanhar você",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 28,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#inscricao.enroll.grid",
+      "tag": "section",
+      "top": 6435,
+      "height": 802,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 38,
+      "right": 56,
+      "textLeft": 38,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#duvidas",
+      "tag": "section",
+      "top": 7236,
+      "height": 1000,
+      "words": 100,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Antes de começar",
+       "size": 53,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-paper",
+      "tag": "footer",
+      "top": 8236,
+      "height": 572,
+      "words": 31,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Endodontia sem parar a agenda.",
+      "size": 57,
+      "top": 98,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 31
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Gambarino and General Sans, but the page renders Hanken Grotesk, Instrument Serif.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/claude/endo-evolution-site/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/home/claude/endo-evolution-site/.taste-skill/inspect/desktop-page-01.jpg",
+    "/home/claude/endo-evolution-site/.taste-skill/inspect/desktop-page-02.jpg",
+    "/home/claude/endo-evolution-site/.taste-skill/inspect/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/claude/endo-evolution-site/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/claude/endo-evolution-site/.taste-skill/inspect/tablet-page-01.jpg",
+    "/home/claude/endo-evolution-site/.taste-skill/inspect/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/claude/endo-evolution-site/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/claude/endo-evolution-site/.taste-skill/inspect/mobile-page-01.jpg",
+    "/home/claude/endo-evolution-site/.taste-skill/inspect/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
