@@ -74,8 +74,7 @@ ANTES DE LANÇAR: DEPOIMENTOS
  - As ferramentas só carregam depois que o visitante clica em "Aceitar".
  - "Recusar" = nada é carregado. O visitante pode mudar de ideia pelo link
    "Preferências de cookies" no rodapé ou na política de privacidade.
- - Em politica-de-privacidade.html, troque [E-MAIL DE CONTATO] por um
-   e-mail real.
+ - E-mail de contato da política de privacidade: castillomarinodontologia@gmail.com
 
 
 6. COMO TESTAR
