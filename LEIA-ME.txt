@@ -15,7 +15,7 @@ Cloudflare Pages, em um ou dois minutos.
                     ou me peça.
   LINK_INSTAGRAM  → já configurado: instagram.com/christian.endoacademy
   META_PIXEL_ID   → ID do Pixel da Meta (só números)
-  GA4_ID          → ID de medição do Google Analytics (começa com G-)
+  GA4_ID          → já configurado: G-7Y37S19XVC (conta "Endo Evolution" em uzan98@gmail.com)
   PRECO           → 3990 (valor enviado nos eventos de compra)
 
 Campo vazio = desligado. Com META_PIXEL_ID e GA4_ID vazios, o site não usa
