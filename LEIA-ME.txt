@@ -98,3 +98,12 @@ ARQUIVOS DA PASTA assets
 - icone.png / favicon-32.png ... ícone da aba do navegador e do celular
 - compartilhar.jpg ... imagem que aparece ao compartilhar o link
 - grain.png .......... textura de fundo
+
+
+SEÇÃO DE MÓDULOS (ESBOÇO)
+-------------------------
+Está pronta no index.html, mas escondida para os visitantes. Para ver:
+  https://endoevolution.com.br/?previa
+Os títulos e textos dos 6 módulos são ilustrativos. Quando chegar o conteúdo
+oficial: troque os textos, apague o aviso amarelo de prévia (data-previa-aviso)
+e o atributo hidden da <section id="modulos">.
