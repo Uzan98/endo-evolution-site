@@ -9,8 +9,10 @@ Cloudflare Pages, em um ou dois minutos.
 
 1. CONFIGURAÇÕES (fim do index.html, bloco "CONFIGURAÇÕES — edite aqui")
 ------------------------------------------------------------------------
-  LINK_PAGAMENTO  → sem uso no momento (a seção de preço foi trocada pela chamada do WhatsApp)
-  LINK_WHATSAPP   → já configurado: wa.me/5512996007695 + mensagem pronta.
+  LINK_PAGAMENTO  → sem uso no momento
+  LINK_FORMULARIO → formulário de inscrição no Tally: https://tally.so/r/WJ8qjR
+                    (os botões de inscrição usam esse link direto no HTML)
+  LINK_WHATSAPP   → sem uso no momento (o WhatsApp saiu do site; antes era wa.me/5512996007695)
                     Para trocar a mensagem, edite o texto depois de "?text=" (codificado)
                     ou me peça.
   LINK_INSTAGRAM  → já configurado: instagram.com/christian.endoacademy
@@ -21,8 +23,8 @@ Cloudflare Pages, em um ou dois minutos.
 Campo vazio = desligado. Com META_PIXEL_ID e GA4_ID vazios, o site não usa
 cookies e o aviso de cookies não aparece.
 
-O preço não aparece mais na página. A chamada final ("Quero evoluir minha
-endodontia") leva direto ao WhatsApp do professor com uma mensagem pronta.
+O preço não aparece na página. Todos os botões de inscrição ("Quero minha vaga"
+e "Comece a sua evolução agora") abrem o formulário do Tally numa aba nova.
 
 
 2. COMO PEGAR O ID DO PIXEL DA META
@@ -43,17 +45,15 @@ endodontia") leva direto ao WhatsApp do professor com uma mensagem pronta.
  3. Crie um fluxo de dados Web com o endereço do site.
  4. Copie o "ID da métrica" (G-XXXXXXXXXX) e cole em GA4_ID.
  5. Depois dos primeiros acessos, em Administrador → Eventos, marque como
-    "evento principal": contato_whatsapp (o clique que leva ao WhatsApp).
+    "evento principal": abriu_formulario (o clique que abre o formulário).
 
 
 4. O QUE É MEDIDO
 -----------------
  Situação                              Google Analytics      Meta Pixel
  Abriu o site                          page_view             PageView
- "Quero minha vaga" (menu ou topo)     clique_quero_vaga     CliqueQueroVaga
- Chegou na chamada final (WhatsApp)    view_item             ViewContent
- "Quero evoluir minha endodontia"      contato_whatsapp      Contact
- WhatsApp do rodapé                    contato_whatsapp      Contact
+ Chegou na chamada final              view_item             ViewContent
+ Botões de inscrição (abre o Tally)    abriu_formulario      AbriuFormulario
  Clicou no Instagram                   clique_instagram      CliqueInstagram
  Ligou o som do vídeo                  assistiu_video        AssistiuVideo
  Leu 25/50/75/100% da página           rolagem               —
