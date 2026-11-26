@@ -18,7 +18,6 @@ Cloudflare Pages, em um ou dois minutos.
   LINK_INSTAGRAM  → já configurado: instagram.com/christian.endoacademy
   META_PIXEL_ID   → ID do Pixel da Meta (só números)
   GA4_ID          → já configurado: G-7Y37S19XVC (conta "Endo Evolution" em uzan98@gmail.com)
-  PRECO           → 3990 (valor enviado nos eventos de compra)
 
 Campo vazio = desligado. Com META_PIXEL_ID e GA4_ID vazios, o site não usa
 cookies e o aviso de cookies não aparece.
@@ -45,22 +44,52 @@ e "Comece a sua evolução agora") abrem o formulário do Tally numa aba nova.
  3. Crie um fluxo de dados Web com o endereço do site.
  4. Copie o "ID da métrica" (G-XXXXXXXXXX) e cole em GA4_ID.
  5. Depois dos primeiros acessos, em Administrador → Eventos, marque como
-    "evento principal": abriu_formulario (o clique que abre o formulário).
+    "evento principal": enviou_formulario (quem enviou o formulário).
 
 
-4. O QUE É MEDIDO
------------------
- Situação                              Google Analytics      Meta Pixel
- Abriu o site                          page_view             PageView
- Chegou na chamada final              view_item             ViewContent
- Botões de inscrição (abre o Tally)    abriu_formulario      AbriuFormulario
- Clicou no Instagram                   clique_instagram      CliqueInstagram
- Ligou o som do vídeo                  assistiu_video        AssistiuVideo
- Leu 25/50/75/100% da página           rolagem               —
+4. O QUE É MEDIDO (guia em linguagem simples)
+---------------------------------------------
+Cada coisa que o visitante faz vira um "evento" no Google Analytics. Os nomes
+estão em português e cada evento traz um detalhe (o "parâmetro"), também
+em texto legível.
 
-A compra em si acontece na plataforma de pagamento. Para medir as vendas
-(evento Purchase), configure o mesmo Pixel e o mesmo Analytics também lá:
-Hotmart, Kiwify e similares têm campos próprios para esses IDs.
+ Evento no Analytics   O que significa                        Detalhe que vem junto
+ -------------------   ------------------------------------   -----------------------------------
+ page_view             Abriu o site                           (automático)
+ viu_secao             Chegou numa parte da página            secao: "3. O que o método resolve"...
+ leu_pagina            Rolou a página até certo ponto         percentual: "25%", "50%", "75%", "100%"
+ clicou_inscricao      Clicou num botão de inscrição          local: "Menu do topo", "Primeira tela
+                                                              (topo)", "Depois de O que o método
+                                                              resolve" ou "Chamada final"
+ enviou_formulario     ENVIOU o formulário (é o lead!)        local: qual botão trouxe a pessoa
+ abriu_duvida          Abriu uma pergunta das dúvidas         pergunta: o texto da pergunta
+ video_assistido       Ligou o som do vídeo do professor      progresso: "Ligou o som", "25%"... "100%"
+ clicou_instagram      Clicou no Instagram                    local: "Rodapé" ou "Página de obrigado"
+
+ No Meta Pixel (quando o ID for colocado): PageView, ViewContent (chegou na
+ inscrição), CliqueInscricao, Lead (enviou o formulário), AssistiuVideo,
+ CliqueInstagram.
+
+ FUNIL PRINCIPAL (o que olhar primeiro):
+   visitantes → viu_secao "11. Inscrição" → clicou_inscricao → enviou_formulario
+
+ DE ONDE VEM CADA LEAD:
+   Use links com utm nos anúncios e na bio, por exemplo:
+   https://endoevolution.com.br/?utm_source=instagram&utm_medium=bio
+   O site repassa esses utm (e o botão clicado) para o formulário do Tally.
+
+ CONFIGURAÇÕES QUE PRECISAM ESTAR FEITAS:
+   a) No Tally → Settings → "Redirect on completion":
+      https://endoevolution.com.br/obrigado.html?botao=@botao
+      (o @botao é o campo oculto; digite @ no Tally para inserir)
+   b) No Tally, crie campos ocultos (/hidden) com os nomes:
+      utm_source, utm_medium, utm_campaign, utm_content, utm_term, botao
+   c) No Google Analytics → Administrador → Definições personalizadas,
+      dimensões de evento: local, percentual, secao, pergunta, progresso.
+   d) No Google Analytics → Administrador → Eventos: marcar
+      enviou_formulario como "evento principal" (a estrela).
+   e) A página obrigado.html tem os mesmos IDs no fim do arquivo. Se trocar
+      o ID do Analytics ou colocar o do Pixel, troque nos dois arquivos.
 
 
 ANTES DE LANÇAR: DEPOIMENTOS

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recebemos as suas respostas — Endo Evolution</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B161E">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&amp;family=Sora:wght@300;400;500;600&amp;display=swap">
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#0B161E;color:#F2EEE6;font-family:'Sora',system-ui,sans-serif;font-weight:300;display:flex;flex-direction:column}
+header{border-bottom:1px solid rgba(255,255,255,.07)}
+header div{max-width:1240px;margin:0 auto;padding:14px clamp(20px,4vw,32px)}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:clamp(48px,10vw,96px) clamp(20px,4vw,32px);position:relative;overflow:hidden}
+.glow{position:absolute;width:640px;height:640px;left:50%;top:50%;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(111,216,196,.16),rgba(111,216,196,0));pointer-events:none}
+.box{position:relative;max-width:620px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:22px}
+.check{width:76px;height:76px;border-radius:50%;background:#3FD9B5;color:#062A26;display:flex;align-items:center;justify-content:center;box-shadow:0 0 60px rgba(63,217,181,.35);animation:pop .6s cubic-bezier(.2,.8,.2,1) both}
+.check path{stroke-dasharray:26;stroke-dashoffset:26;animation:draw .5s .35s ease-out forwards}
+@keyframes pop{from{transform:scale(.6);opacity:0}to{transform:none;opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+.eyebrow{margin:0;font-size:12px;letter-spacing:.28em;color:#6FD8C4;font-weight:500}
+h1{margin:0;font-size:clamp(34px,5vw,54px);line-height:1.08;font-weight:600;letter-spacing:-.03em}
+h1 span{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:#4FE0BE}
+p{margin:0;font-size:18px;line-height:1.6;color:#B4C0C8}
+.acoes{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding-top:8px}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px}
+.btn.cheio{background:#3FD9B5;color:#062A26}
+.btn.borda{border:1px solid rgba(255,255,255,.2);color:#F2EEE6;font-weight:500}
+footer{padding:24px;text-align:center;font-size:13px;color:#84939D}
+footer a{color:#84939D}
+</style>
+</head>
+<body>
+<header><div><a href="/" aria-label="Endo Evolution, voltar ao site"><img src="assets/logo.png" alt="Endo Evolution" style="height:42px;width:auto;display:block"></a></div></header>
+<main>
+<div class="glow" aria-hidden="true"></div>
+<div class="box">
+<span class="check"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span>
+<p class="eyebrow">INSCRIÇÃO RECEBIDA</p>
+<h1>Obrigado! Recebemos as suas <span>respostas.</span></h1>
+<p>A equipe da Endo Evolution vai conhecer o seu momento clínico e entrar em contato com você em breve para conversar sobre a mentoria.</p>
+<p style="font-size:16px;color:#9AA8B2">Enquanto isso, acompanhe o Prof. Dr. Christian Castillo no Instagram.</p>
+<div class="acoes">
+<a class="btn cheio" href="https://www.instagram.com/christian.endoacademy/" target="_blank" rel="noopener" id="ee-insta">Ver o Instagram</a>
+<a class="btn borda" href="/">Voltar ao site</a>
+</div>
+</div>
+</main>
+<footer>© 2026 Endo Evolution · <a href="politica-de-privacidade.html">Política de privacidade</a></footer>
+
+<script>
+/* ===== Medição desta página — use os MESMOS IDs do index.html ===== */
+var META_PIXEL_ID = '';
+var GA4_ID        = 'G-7Y37S19XVC';
+/* ================================================================== */
+(function () {
+  var d = document, w = window;
+  var PIXEL = String(META_PIXEL_ID || '').trim(), GA = String(GA4_ID || '').trim();
+  var consent = null; try { consent = localStorage.getItem('ee-consent'); } catch (e) {}
+  if (consent !== 'aceitar' || (!PIXEL && !GA)) return;   /* sem consentimento: nada é carregado */
+
+  var q = new URLSearchParams(location.search);
+  var botao = q.get('botao') || '', jaContou = false;
+  try { jaContou = sessionStorage.getItem('ee-lead') === '1'; sessionStorage.setItem('ee-lead', '1'); } catch (e) {}
+
+  if (GA) {
+    var g = d.createElement('script'); g.async = true;
+    g.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA);
+    d.head.appendChild(g);
+    w.dataLayer = w.dataLayer || [];
+    w.gtag = function () { w.dataLayer.push(arguments); };
+    w.gtag('js', new Date());
+    w.gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted' });
+    w.gtag('config', GA);
+    if (!jaContou) w.gtag('event', 'enviou_formulario', { local: botao });
+  }
+  if (PIXEL) {
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = [];
+      t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+    }(w, d, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    w.fbq('init', PIXEL);
+    w.fbq('track', 'PageView');
+    if (!jaContou) w.fbq('track', 'Lead', { content_name: 'Formulário Endo Evolution' });
+  }
+  var insta = d.getElementById('ee-insta');
+  if (insta) insta.addEventListener('click', function () { if (w.gtag) w.gtag('event', 'clicou_instagram', { local: 'Página de obrigado' }); });
+})();
+</script>
+</body>
+</html>
